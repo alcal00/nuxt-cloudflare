@@ -1,0 +1,17 @@
+npm:
+  publish: false
+# Force github/gilab release in the CI script, not here !
+#github:
+#    release: true
+
+gitlab:
+  # release: true
+  # we don't use assets anymore, we store in package
+  #assets:
+  #  - public.tbz
+
+git:
+  # we force the repo to the SSH variant to allow git push via SSH key
+  pushRepo: "git@gitlab.com:arundo-tech/pp-front.git"
+  commit: true
+  requireCleanWorkingDir: false

@@ -1,0 +1,32 @@
+title: 'paxpar'
+description: 'Embarquez pour l"ère digitale en toute confiance : paxpar garantit la fiabilité et la protection de vos documents PDF.'
+navigation: false
+hero:
+  title: 'Maîtrisez vos risques de dématérialisation'
+  description: 'Créez et vérifiez vos documents PDF par vous-même'
+  headline:
+    label: Made with Nuxt UI Pro
+    to: https://ui.nuxt.com/pro
+    icon: i-heroicons-arrow-top-right-on-square-20-solid
+  links:
+    - label: Débuter
+      to: '/'
+      size: xl
+      color: black
+      icon: i-heroicons-arrow-right-20-solid
+      trailing: true
+    - label: Use this template
+      icon: i-simple-icons-github
+      size: xl
+      color: gray
+      to: https://github.com/nuxt-ui-pro/saas
+      target: _blank
+animation: "/anim/main_fr.svg"
+cta:
+  title: Découvrez paxpar
+  description: Explorez des offres exclusives et bénéficiez d'avantages réservés aux membres en vous connectant dès maintenant !
+  links:
+    - label: Inscrivez vous pour 2 mois GRATUITS
+      size: xl
+      color: black
+      to: /login?redirect=/pricing

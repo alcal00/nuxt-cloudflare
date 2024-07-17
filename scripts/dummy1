@@ -1,0 +1,10 @@
+#!/bin/bash
+
+podman run -ti --rm \
+    --name dev-pp-widgets \
+    -v .:/src/pp-widgets \
+    -w /src/pp-widgets \
+    -p 3000:3000 \
+    --env-file=./.env \
+    --entrypoint /bin/bash \
+    node:18

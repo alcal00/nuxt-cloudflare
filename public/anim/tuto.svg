@@ -1,0 +1,805 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="3840"
+   height="2160"
+   viewBox="0 0 1016 571.5"
+   version="1.1"
+   id="svg189"
+   inkscape:version="1.3.2 (1:1.3.2+202311252150+091e20ef0f)"
+   sodipodi:docname="tuto.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <style
+     id="style12">.ddd {   }
+.dark {   }
+</style>
+  <sodipodi:namedview
+     id="namedview191"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="0.32346812"
+     inkscape:cx="1851.8054"
+     inkscape:cy="1261.3299"
+     inkscape:window-width="1592"
+     inkscape:window-height="1212"
+     inkscape:window-x="26"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="1016"
+       height="571.5"
+       id="page780"
+       margin="0"
+       bleed="0" />
+    <inkscape:page
+       x="1026"
+       y="0"
+       width="1016"
+       height="571.5"
+       id="page782"
+       margin="0"
+       bleed="0" />
+    <inkscape:page
+       x="2052"
+       y="0"
+       width="1016"
+       height="571.5"
+       id="page1"
+       margin="0"
+       bleed="0" />
+    <inkscape:page
+       x="3078"
+       y="0"
+       width="1016"
+       height="571.5"
+       id="page2"
+       margin="0"
+       bleed="0" />
+    <inkscape:page
+       x="4104"
+       y="0"
+       width="1016"
+       height="571.5"
+       id="page30"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs186">
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="503.67999"
+       y1="507.29999"
+       x2="262.79999"
+       x1="213.66"
+       id="p">
+      <stop
+         id="stop3654"
+         offset="0"
+         stop-color="#e6e6e6" />
+      <stop
+         id="stop3656"
+         offset="1"
+         stop-opacity="0"
+         stop-color="#e6e6e6" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#i"
+       gradientUnits="userSpaceOnUse"
+       y2="713.84998"
+       y1="738.84998"
+       x2="411.92999"
+       x1="621.54999"
+       id="o" />
+    <linearGradient
+       id="i">
+      <stop
+         id="stop3644"
+         offset="0"
+         stop-color="#ccc" />
+      <stop
+         id="stop3646"
+         offset="1"
+         stop-opacity="0"
+         stop-color="#ccc" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#i"
+       gradientUnits="userSpaceOnUse"
+       y2="322.39001"
+       y1="360.22"
+       x2="436.89001"
+       x1="661.66998"
+       id="q" />
+    <filter
+       id="j"
+       x="-0.046306349"
+       y="-0.030907832"
+       width="1.0926183"
+       height="1.0618101">
+      <feGaussianBlur
+         id="feGaussianBlur3610"
+         stdDeviation="2.71542" />
+    </filter>
+    <filter
+       id="filter966"
+       x="-0.046306349"
+       y="-0.030907832"
+       width="1.0926183"
+       height="1.0618101">
+      <feGaussianBlur
+         id="feGaussianBlur964"
+         stdDeviation="2.71542" />
+    </filter>
+    <linearGradient
+       xlink:href="#g"
+       gradientUnits="userSpaceOnUse"
+       y2="834.88"
+       y1="887.91998"
+       x2="466.92999"
+       x1="394.73001"
+       id="k" />
+    <linearGradient
+       id="g">
+      <stop
+         id="stop3634"
+         offset="0" />
+      <stop
+         id="stop3636"
+         offset="1"
+         stop-opacity="0" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#g"
+       gradientUnits="userSpaceOnUse"
+       y2="422.57999"
+       y1="495.62"
+       x2="291.48001"
+       x1="296.94"
+       id="n" />
+    <filter
+       id="s"
+       x="-0.044527929"
+       y="-0.053420883"
+       width="1.0890559"
+       height="1.1068418">
+      <feGaussianBlur
+         id="feGaussianBlur3613"
+         stdDeviation="1.71955" />
+    </filter>
+    <filter
+       height="1.1107364"
+       width="1.3810042"
+       y="-0.055368222"
+       x="-0.19050209"
+       id="r">
+      <feGaussianBlur
+         id="feGaussianBlur3619"
+         stdDeviation="2.29248" />
+    </filter>
+    <filter
+       height="1.1872218"
+       width="1.3744498"
+       y="-0.093610913"
+       x="-0.18722489"
+       id="v">
+      <feGaussianBlur
+         id="feGaussianBlur3625"
+         stdDeviation=".94728" />
+    </filter>
+    <filter
+       id="u"
+       x="-0.07333979"
+       y="-0.090819985"
+       width="1.1466796"
+       height="1.18164">
+      <feGaussianBlur
+         id="feGaussianBlur3616"
+         stdDeviation="1.77462" />
+    </filter>
+    <filter
+       height="1.2735533"
+       width="1.3424896"
+       y="-0.1367766"
+       x="-0.17124479"
+       id="t">
+      <feGaussianBlur
+         id="feGaussianBlur3628"
+         stdDeviation="2.37859" />
+    </filter>
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       r="27.545"
+       cy="15.163"
+       cx="15.891"
+       id="a">
+      <stop
+         id="stop3287"
+         offset="0"
+         stop-color="#fff" />
+      <stop
+         id="stop3289"
+         offset="1"
+         stop-opacity="0"
+         stop-color="#00f038" />
+    </radialGradient>
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.91888,0.94532,-0.71707,0.69701,13.381,-10.047)"
+       r="27.545"
+       cy="16.847"
+       cx="16.028"
+       id="c">
+      <stop
+         id="stop3292"
+         offset="0"
+         stop-color="#9bffb3" />
+      <stop
+         id="stop3294"
+         offset="1"
+         stop-color="#00f038" />
+    </radialGradient>
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       r="27.545"
+       cy="15.163"
+       cx="15.891"
+       id="radialGradient1002">
+      <stop
+         id="stop998"
+         offset="0"
+         stop-color="#fff" />
+      <stop
+         id="stop1000"
+         offset="1"
+         stop-opacity="0"
+         stop-color="#00f038" />
+    </radialGradient>
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.91888,0.94532,-0.71707,0.69701,13.381,-10.047)"
+       r="27.545"
+       cy="16.847"
+       cx="16.028"
+       id="radialGradient1009">
+      <stop
+         id="stop1005"
+         offset="0"
+         stop-color="#9bffb3" />
+      <stop
+         id="stop1007"
+         offset="1"
+         stop-color="#00f038" />
+    </radialGradient>
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       r="27.545"
+       cy="15.163"
+       cx="15.891"
+       id="radialGradient1016">
+      <stop
+         id="stop1012"
+         offset="0"
+         stop-color="#fff" />
+      <stop
+         id="stop1014"
+         offset="1"
+         stop-opacity="0"
+         stop-color="#00f038" />
+    </radialGradient>
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.91888,0.94532,-0.71707,0.69701,13.381,-10.047)"
+       r="27.545"
+       cy="16.847"
+       cx="16.028"
+       id="radialGradient1023">
+      <stop
+         id="stop1019"
+         offset="0"
+         stop-color="#9bffb3" />
+      <stop
+         id="stop1021"
+         offset="1"
+         stop-color="#00f038" />
+    </radialGradient>
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       r="27.545"
+       cy="15.163"
+       cx="15.891"
+       id="radialGradient1030">
+      <stop
+         id="stop1026"
+         offset="0"
+         stop-color="#fff" />
+      <stop
+         id="stop1028"
+         offset="1"
+         stop-opacity="0"
+         stop-color="#00f038" />
+    </radialGradient>
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.91888,0.94532,-0.71707,0.69701,13.381,-10.047)"
+       r="27.545"
+       cy="16.847"
+       cx="16.028"
+       id="radialGradient1037">
+      <stop
+         id="stop1033"
+         offset="0"
+         stop-color="#9bffb3" />
+      <stop
+         id="stop1035"
+         offset="1"
+         stop-color="#00f038" />
+    </radialGradient>
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       r="27.545"
+       cy="15.163"
+       cx="15.891"
+       id="radialGradient1044">
+      <stop
+         id="stop1040"
+         offset="0"
+         stop-color="#fff" />
+      <stop
+         id="stop1042"
+         offset="1"
+         stop-opacity="0"
+         stop-color="#00f038" />
+    </radialGradient>
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.91888,0.94532,-0.71707,0.69701,13.381,-10.047)"
+       r="27.545"
+       cy="16.847"
+       cx="16.028"
+       id="radialGradient1051">
+      <stop
+         id="stop1047"
+         offset="0"
+         stop-color="#9bffb3" />
+      <stop
+         id="stop1049"
+         offset="1"
+         stop-color="#00f038" />
+    </radialGradient>
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       r="27.545"
+       cy="15.163"
+       cx="15.891"
+       id="radialGradient1058">
+      <stop
+         id="stop1054"
+         offset="0"
+         stop-color="#fff" />
+      <stop
+         id="stop1056"
+         offset="1"
+         stop-opacity="0"
+         stop-color="#00f038" />
+    </radialGradient>
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.91888,0.94532,-0.71707,0.69701,13.381,-10.047)"
+       r="27.545"
+       cy="16.847"
+       cx="16.028"
+       id="b">
+      <stop
+         id="stop3297"
+         offset="0"
+         stop-color="#ff9b9b" />
+      <stop
+         id="stop3299"
+         offset="1"
+         stop-color="#f00000" />
+    </radialGradient>
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       r="27.545"
+       cy="15.163"
+       cx="15.891"
+       id="radialGradient1068">
+      <stop
+         id="stop1064"
+         offset="0"
+         stop-color="#fff" />
+      <stop
+         id="stop1066"
+         offset="1"
+         stop-opacity="0"
+         stop-color="#00f038" />
+    </radialGradient>
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.91888,0.94532,-0.71707,0.69701,13.381,-10.047)"
+       r="27.545"
+       cy="16.847"
+       cx="16.028"
+       id="radialGradient1075">
+      <stop
+         id="stop1071"
+         offset="0"
+         stop-color="#9bffb3" />
+      <stop
+         id="stop1073"
+         offset="1"
+         stop-color="#00f038" />
+    </radialGradient>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     ref="layer1">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:57.9752px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.44938"
+       x="1499.1592"
+       y="551.3562"
+       id="text1426"><tspan
+         sodipodi:role="line"
+         id="tspan1424"
+         x="1499.1592"
+         y="551.3562"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:1.44938">check any PDF</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:57.9752px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.44938"
+       x="2542.4072"
+       y="551.3562"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         x="2542.4072"
+         y="551.3562"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:1.44938">craft your PDF</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:57.9752px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.44938"
+       x="3584.8816"
+       y="551.3562"
+       id="text2"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         x="3584.8816"
+         y="551.3562"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:1.44938">publish your compliance portal</tspan></text>
+    <rect
+       style="fill:#000000;stroke-width:0.221001;stroke-linecap:square;stroke-miterlimit:0;stroke-dasharray:0.221001, 0.884004;paint-order:stroke markers fill"
+       id="rect12"
+       width="346.88788"
+       height="301.34549"
+       x="513.78973"
+       y="145.58875"
+       class="dark  ddd" />
+    <rect
+       style="fill:#483737;stroke-width:0.138327;stroke-linecap:square;stroke-miterlimit:0;stroke-dasharray:0.138327, 0.553307;paint-order:stroke markers fill"
+       id="rect5"
+       width="269.59085"
+       height="151.9052"
+       x="208.11629"
+       y="278.59637" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:57.9752px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.44938"
+       x="459.13501"
+       y="496.66281"
+       id="text3"><tspan
+         sodipodi:role="line"
+         id="tspan3"
+         x="459.13501"
+         y="496.66281"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:1.44938">white text on transparent background</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:57.9752px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.44938"
+       x="4538.2402"
+       y="354.00583"
+       id="text4"><tspan
+         sodipodi:role="line"
+         id="tspan4"
+         x="4538.2402"
+         y="354.00583"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:1.44938">check / craft / publish</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:57.9752px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.44938"
+       x="459.13501"
+       y="376.0127"
+       id="text5"><tspan
+         sodipodi:role="line"
+         id="tspan5"
+         x="459.13501"
+         y="376.0127"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:1.44938">white text on dark background</tspan></text>
+    <rect
+       style="fill:#ff5555;stroke-width:0.144;stroke-linecap:square;stroke-miterlimit:0;stroke-dasharray:0.144, 0.576001;paint-order:stroke markers fill"
+       id="rect1"
+       width="123.97815"
+       height="114.50134"
+       x="1208.3157"
+       y="84.447769"
+       ref="stage1" />
+    <rect
+       style="fill:#0000ff;stroke-width:0.144;stroke-linecap:square;stroke-miterlimit:0;stroke-dasharray:0.144, 0.576001;paint-order:stroke markers fill"
+       id="rect2"
+       width="123.97815"
+       height="114.50134"
+       x="1397.8328"
+       y="111.72794"
+       ref="stage2" />
+    <rect
+       style="fill:#00ff00;stroke-width:0.144;stroke-linecap:square;stroke-miterlimit:0;stroke-dasharray:0.144, 0.576001;paint-order:stroke markers fill"
+       id="rect3"
+       width="123.97815"
+       height="114.50134"
+       x="1566.3322"
+       y="157.57832"
+       ref="stage3" />
+    <rect
+       style="fill:#ff7f2a;stroke-width:0.144;stroke-linecap:square;stroke-miterlimit:0;stroke-dasharray:0.144, 0.576001;paint-order:stroke markers fill"
+       id="rect4"
+       width="123.97815"
+       height="114.50134"
+       x="1724.5431"
+       y="232.83046"
+       ref="stage4" />
+    <g
+       id="g6"
+       transform="translate(27.177932,-107.55029)"
+       ref="stage1">
+      <ellipse
+         style="fill:#ff7f2a;stroke-width:0.144;stroke-linecap:square;stroke-miterlimit:0;stroke-dasharray:0.144, 0.576001;paint-order:stroke markers fill"
+         id="path4"
+         cx="2205.6204"
+         cy="233.23625"
+         rx="43.648922"
+         ry="39.239616" />
+      <rect
+         style="fill:#00ff00;stroke-width:0.144;stroke-linecap:square;stroke-miterlimit:0;stroke-dasharray:0.144, 0.576001;paint-order:stroke markers fill"
+         id="rect6"
+         width="85.623581"
+         height="60.968224"
+         x="2170.4019"
+         y="210.49158" />
+      <text
+         xml:space="preserve"
+         style="font-size:18.6536px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';fill:#2b0000;stroke-width:0.846023;stroke-linecap:square;stroke-miterlimit:0;stroke-dasharray:0.846023, 3.3841;paint-order:stroke markers fill"
+         x="2189.3291"
+         y="245.57379"
+         id="text6"><tspan
+           sodipodi:role="line"
+           id="tspan6"
+           style="fill:#2b0000;stroke-width:0.846023"
+           x="2189.3291"
+           y="245.57379">stage 1</tspan></text>
+    </g>
+    <g
+       id="g7"
+       transform="translate(136.74277,-104.92388)"
+       ref="stage2">
+      <ellipse
+         style="fill:#ff7f2a;stroke-width:0.144;stroke-linecap:square;stroke-miterlimit:0;stroke-dasharray:0.144, 0.576001;paint-order:stroke markers fill"
+         id="ellipse6"
+         cx="2205.6204"
+         cy="233.23625"
+         rx="43.648922"
+         ry="39.239616" />
+      <rect
+         style="fill:#00ff00;stroke-width:0.144;stroke-linecap:square;stroke-miterlimit:0;stroke-dasharray:0.144, 0.576001;paint-order:stroke markers fill"
+         id="rect7"
+         width="85.623581"
+         height="60.968224"
+         x="2170.4019"
+         y="210.49158" />
+      <text
+         xml:space="preserve"
+         style="font-size:18.6536px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';fill:#2b0000;stroke-width:0.846023;stroke-linecap:square;stroke-miterlimit:0;stroke-dasharray:0.846023, 3.3841;paint-order:stroke markers fill"
+         x="2189.3291"
+         y="245.57379"
+         id="text7"><tspan
+           sodipodi:role="line"
+           id="tspan7"
+           style="fill:#2b0000;stroke-width:0.846023"
+           x="2189.3291"
+           y="245.57379">stage 2</tspan></text>
+    </g>
+    <g
+       id="g8"
+       transform="translate(32.432358,-13.940432)"
+       ref="stage3">
+      <ellipse
+         style="fill:#ff7f2a;stroke-width:0.144;stroke-linecap:square;stroke-miterlimit:0;stroke-dasharray:0.144, 0.576001;paint-order:stroke markers fill"
+         id="ellipse7"
+         cx="2205.6204"
+         cy="233.23625"
+         rx="43.648922"
+         ry="39.239616" />
+      <rect
+         style="fill:#00ff00;stroke-width:0.144;stroke-linecap:square;stroke-miterlimit:0;stroke-dasharray:0.144, 0.576001;paint-order:stroke markers fill"
+         id="rect8"
+         width="85.623581"
+         height="60.968224"
+         x="2170.4019"
+         y="210.49158" />
+      <text
+         xml:space="preserve"
+         style="font-size:18.6536px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';fill:#2b0000;stroke-width:0.846023;stroke-linecap:square;stroke-miterlimit:0;stroke-dasharray:0.846023, 3.3841;paint-order:stroke markers fill"
+         x="2189.3291"
+         y="245.57379"
+         id="text8"><tspan
+           sodipodi:role="line"
+           id="tspan8"
+           style="fill:#2b0000;stroke-width:0.846023"
+           x="2189.3291"
+           y="245.57379">stage 3</tspan></text>
+    </g>
+    <g
+       id="g9"
+       transform="translate(193.04476,47.118765)"
+       ref="stage4">
+      <ellipse
+         style="fill:#ff7f2a;stroke-width:0.144;stroke-linecap:square;stroke-miterlimit:0;stroke-dasharray:0.144, 0.576001;paint-order:stroke markers fill"
+         id="ellipse8"
+         cx="2205.6204"
+         cy="233.23625"
+         rx="43.648922"
+         ry="39.239616" />
+      <rect
+         style="fill:#00ff00;stroke-width:0.144;stroke-linecap:square;stroke-miterlimit:0;stroke-dasharray:0.144, 0.576001;paint-order:stroke markers fill"
+         id="rect9"
+         width="85.623581"
+         height="60.968224"
+         x="2170.4019"
+         y="210.49158" />
+      <text
+         xml:space="preserve"
+         style="font-size:18.6536px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';fill:#2b0000;stroke-width:0.846023;stroke-linecap:square;stroke-miterlimit:0;stroke-dasharray:0.846023, 3.3841;paint-order:stroke markers fill"
+         x="2189.3291"
+         y="245.57379"
+         id="text9"><tspan
+           sodipodi:role="line"
+           id="tspan9-6"
+           style="fill:#2b0000;stroke-width:0.846023"
+           x="2189.3291"
+           y="245.57379">stage 4a</tspan></text>
+    </g>
+    <g
+       id="g10"
+       transform="translate(248.47738,-10.175045)"
+       ref="stage4">
+      <ellipse
+         style="fill:#ff7f2a;stroke-width:0.144;stroke-linecap:square;stroke-miterlimit:0;stroke-dasharray:0.144, 0.576001;paint-order:stroke markers fill"
+         id="ellipse9"
+         cx="2205.6204"
+         cy="233.23625"
+         rx="43.648922"
+         ry="39.239616" />
+      <rect
+         style="fill:#00ff00;stroke-width:0.144;stroke-linecap:square;stroke-miterlimit:0;stroke-dasharray:0.144, 0.576001;paint-order:stroke markers fill"
+         id="rect10"
+         width="85.623581"
+         height="60.968224"
+         x="2170.4019"
+         y="210.49158" />
+      <text
+         xml:space="preserve"
+         style="font-size:18.6536px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';fill:#2b0000;stroke-width:0.846023;stroke-linecap:square;stroke-miterlimit:0;stroke-dasharray:0.846023, 3.3841;paint-order:stroke markers fill"
+         x="2189.3291"
+         y="245.57379"
+         id="text10"><tspan
+           sodipodi:role="line"
+           id="tspan10-2"
+           style="fill:#2b0000;stroke-width:0.846023"
+           x="2189.3291"
+           y="245.57379">stage 4a</tspan></text>
+    </g>
+    <g
+       id="g11"
+       transform="translate(304.78229,-57.972865)"
+       ref="stage4">
+      <ellipse
+         style="fill:#ff7f2a;stroke-width:0.144;stroke-linecap:square;stroke-miterlimit:0;stroke-dasharray:0.144, 0.576001;paint-order:stroke markers fill"
+         id="ellipse10"
+         cx="2205.6204"
+         cy="233.23625"
+         rx="43.648922"
+         ry="39.239616" />
+      <rect
+         style="fill:#00ff00;stroke-width:0.144;stroke-linecap:square;stroke-miterlimit:0;stroke-dasharray:0.144, 0.576001;paint-order:stroke markers fill"
+         id="rect11"
+         width="85.623581"
+         height="60.968224"
+         x="2170.4019"
+         y="210.49158" />
+      <text
+         xml:space="preserve"
+         style="font-size:18.6536px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';fill:#2b0000;stroke-width:0.846023;stroke-linecap:square;stroke-miterlimit:0;stroke-dasharray:0.846023, 3.3841;paint-order:stroke markers fill"
+         x="2189.3291"
+         y="245.57379"
+         id="text11"><tspan
+           sodipodi:role="line"
+           id="tspan11"
+           style="fill:#2b0000;stroke-width:0.846023"
+           x="2189.3291"
+           y="245.57379">stage 4a</tspan></text>
+    </g>
+    <g
+       id="g17"
+       transform="translate(312.04489,256.61481)"
+       ref="stage5">
+      <ellipse
+         style="fill:#ff7f2a;stroke-width:0.144;stroke-linecap:square;stroke-miterlimit:0;stroke-dasharray:0.144, 0.576001;paint-order:stroke markers fill"
+         id="ellipse16"
+         cx="2205.6204"
+         cy="233.23625"
+         rx="43.648922"
+         ry="39.239616" />
+      <rect
+         style="fill:#00ff00;stroke-width:0.144;stroke-linecap:square;stroke-miterlimit:0;stroke-dasharray:0.144, 0.576001;paint-order:stroke markers fill"
+         id="rect16"
+         width="85.623581"
+         height="60.968224"
+         x="2170.4019"
+         y="210.49158" />
+      <text
+         xml:space="preserve"
+         style="font-size:18.6536px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';fill:#2b0000;stroke-width:0.846023;stroke-linecap:square;stroke-miterlimit:0;stroke-dasharray:0.846023, 3.3841;paint-order:stroke markers fill"
+         x="2189.3291"
+         y="245.57379"
+         id="text17"><tspan
+           sodipodi:role="line"
+           id="tspan17"
+           style="fill:#2b0000;stroke-width:0.846023"
+           x="2189.3291"
+           y="245.57379">stage 5</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:57.9752px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.44938;stroke-opacity:1"
+       x="479.90027"
+       y="213.85571"
+       id="text12"><tspan
+         sodipodi:role="line"
+         id="tspan12"
+         x="479.90027"
+         y="213.85571"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';text-align:center;text-anchor:middle;fill:#000000;stroke-width:1.44938;stroke:#000000;stroke-opacity:1">black text on dark background</tspan></text>
+    <rect
+       style="fill:#000000;stroke:#ffffff;stroke-width:0.144;stroke-linecap:square;stroke-miterlimit:0;stroke-dasharray:0.144, 0.576001;stroke-opacity:1;paint-order:stroke markers fill"
+       id="rect13"
+       width="263.20993"
+       height="105.38239"
+       x="224.07576"
+       y="53.307858" />
+    <rect
+       style="fill:#aa0000;stroke:#ffffff;stroke-width:0.107266;stroke-linecap:square;stroke-miterlimit:0;stroke-dasharray:0.107266, 0.429067;stroke-opacity:1;paint-order:stroke markers fill"
+       id="rect14"
+       width="196.06671"
+       height="78.5"
+       x="257.13675"
+       y="66.990288"
+       class="col1 dark:col2" />
+  </g>
+</svg>

@@ -1,0 +1,171 @@
+# pp-widget gitlab ci/cd script
+#image: node:lts
+image: node:20
+
+stages:
+  - test
+  - release
+  - pages
+
+#cache:
+#  paths:
+#    - node_modules/
+
+# minial e2e tests
+run_playwright_tests:
+  stage: test
+  image: mcr.microsoft.com/playwright:v1.44.1-jammy
+  script:
+    #- npm ci # Install project dependencies
+    - npx bun install --frozen-lockfile
+    - npx playwright test # Run your Playwright tests 
+    - echo "https://$CI_PROJECT_NAMESPACE.gitlab.io/-/$CI_PROJECT_NAME/-/jobs/$CI_JOB_ID/artifacts/playwright-report/index.html" # print the URL to view the results
+  allow_failure: true
+
+  # Publish Playwright test results as artifacts and keep for 2 days
+  artifacts:
+    when: always
+    paths:
+      - playwright-report
+    expire_in: 20 days
+  rules:
+    - if: $CI_COMMIT_MESSAGE =~ /Release/
+      when: never
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+
+
+publish:
+  stage: release
+  #TODO: re-enable cache
+  cache: []
+
+  before_script:
+    # see https://docs.gitlab.com/ee/ci/ssh_keys/
+    ##
+    ## Install ssh-agent if not already installed, it is required by Docker.
+    ## (change apt-get to yum if you use an RPM-based image)
+    ##
+    #- 'command -v ssh-agent >/dev/null || ( apt-get update -y && apt-get install openssh-client -y )'
+    - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client git -y )'
+
+    ##
+    ## Run ssh-agent (inside the build environment)
+    ##
+    - eval $(ssh-agent -s)
+
+    ##
+    ## Add the SSH key stored in SSH_PRIVATE_KEY variable to the agent store
+    ## We're using tr to fix line endings which makes ed25519 keys work
+    ## without extra base64 encoding.
+    ## https://gitlab.com/gitlab-examples/ssh-private-key/issues/1#note_48526556
+    ##
+    # - cat $NUXT_UI_PRO_LICENSE
+    # - printf $NUXT_UI_PRO_LICENSE
+    - cat $SSH_PRIVATE_KEY | tr -d '\r' | ssh-add -
+    #- cat /builds/arundo-tech/pp-front.tmp/SSH_PRIVATE_KEY /builds/arundo-tech/pp-front.tmp/SSH_PRIVATE_KEY | tr -d '\r' | ssh-add -
+    #- echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add -
+
+    ##
+    ## Create the SSH directory and give it the right permissions
+    ##
+    - mkdir -p ~/.ssh
+    - chmod 700 ~/.ssh
+
+    ##
+    ## Use ssh-keyscan to scan the keys of your private server. Replace gitlab.com
+    ## with your own domain name. You can copy and repeat that command if you have
+    ## more than one server to connect to.
+    ##
+    - ssh-keyscan gitlab.com >> ~/.ssh/known_hosts
+    - chmod 644 ~/.ssh/known_hosts
+
+    ##
+    ## Optionally, if you will be using any Git commands, set the user name and
+    ## and email.
+    ##  
+    - git config --global user.name "Philippe ENTZMANN"
+    - git config --global user.email "philippe@ærundo.tech"
+    - git config pull.rebase true
+
+    # jupyterlite deps
+    - apt update
+    - apt install --yes python3-pip
+    - pip install --break-system-packages jupyterlite-core jupyterlite-pyodide-kernel
+
+  artifacts:
+    paths:
+      # The folder that contains the files to be exposed at the Page URL
+      - public
+      # see https://docs.gitlab.com/ee/user/project/releases/release_cicd_examples.html#create-release-metadata-in-a-custom-script
+      #- $CI_COMMIT_REF_NAME.tgz
+
+  script:
+    - pwd
+
+    # since we had a lot of "branches have diverged" troubles
+    # we start with a fresh clone of the repo
+    - cd ..
+    - rm -Rf pp-front
+    - git clone git@gitlab.com:arundo-tech/pp-front.git
+    - cd pp-front
+    - git checkout $CI_COMMIT_REF_NAME
+    - git status
+
+    - npx bun install
+
+    # static generation
+    # limit to 20 minutes since the generate command is sometimes stucked
+    #- timeout 20m npx bun generate || echo "always succeed !"
+    # back to a simple generate :
+    - export NODE_OPTIONS="--max-old-space-size=8192"
+    - npx bun generate
+
+    # jupyterlite build to /public/notebook
+    - jupyter lite build --base-url /notebook --output-dir .output/public/notebook/
+
+    # release the new version
+    - GITLAB_TOKEN=${GITLAB_TOKEN_RELEASEIT}
+    - npx release-it --ci --verbose --npm.skipChecks --gitlab.release
+    - export VERSION_RELEASE=$(node -pe 'require("./package.json").version')
+
+    # store version in a static /version file
+    - echo "CI_COMMIT_REF_NAME = ${CI_COMMIT_REF_NAME}"
+    - echo "VERSION_RELEASE = ${VERSION_RELEASE}"
+    - echo "${VERSION_RELEASE}" > .output/public/version
+    - echo "{\"version\":\"${VERSION_RELEASE}\",\"role\":\"pp-front\"}" > .output/public/version.json
+    # don't create /deploy_conf.json, will be done at deployment time
+
+    # tar archive
+    - cd .output
+    - tar czf ../public.tbz public
+    - cd ..
+    - ls -lsah public.tbz
+
+    # upload package
+    - 'curl --header "JOB-TOKEN: $CI_JOB_TOKEN" --upload-file ./public.tbz "${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/generic/deploy_package/${VERSION_RELEASE}/public.tbz"'
+
+    # prepare the artifact
+    - rm -Rf public
+    - mv .output/public .
+
+  rules:
+    - if: $CI_COMMIT_MESSAGE =~ /Release/
+      when: never
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+
+
+pages:
+  stage: pages
+  script:
+    - echo "Pages from artifact ..."
+  artifacts:
+    paths:
+      # The folder that contains the files to be exposed at the Page URL
+      - public
+  rules:
+    - if: $CI_COMMIT_MESSAGE =~ /Release/
+      when: never
+    # This ensures that only pushes to the default branch will trigger
+    # a pages deploy
+    - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
+

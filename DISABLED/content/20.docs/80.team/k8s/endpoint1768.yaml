@@ -1,0 +1,43 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: testphesrv
+spec:
+  ports:
+  - protocol: TCP
+    port: 9663
+---
+kind: Endpoints
+apiVersion: v1
+metadata:
+  name: testphesrv
+subsets:
+  - addresses:
+      - ip: 10.0.1.1
+      #- ip: 2a01:4f9:2a:25d5::17
+    ports:
+      - port: 9663
+---
+kind: Ingress
+apiVersion: networking.k8s.io/v1
+metadata:
+  name: test-ingress-phesrv
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /
+    nginx.ingress.kubernetes.io/proxy-body-size: "0"
+spec:
+  rules:
+  - host: philippe2.paxpar.tech
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: testphesrv
+            port:
+              number: 9663
+  tls:
+  - hosts:
+    - philippe2.paxpar.tech
+    secretName: paxpar-tls

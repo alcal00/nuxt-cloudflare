@@ -1,0 +1,102 @@
+{
+    "msg": {
+        "icon": "mdi:alert-octagram-outline",
+        "msg": "<b>Promotions</> à ne pas manquer !"
+    },
+    "plans": [{
+            "id": "plan1",
+            "price_per_month": 5,
+            "price_per_year": 50,
+            "button": "Choisir",
+            "footer": "Lorem Ipsum fjsj fkls jflk j"
+        },
+        {
+            "id": "plan2",
+            "price_per_month": 5,
+            "price_per_year": 50,
+            "chip": "popular",
+            "button": "Choisir",
+            "footer": "Lorem Ipsum fjsj fkls jflk j"
+        },
+        {
+            "id": "plan3",
+            "price_per_month": 5,
+            "price_per_year": 50,
+            "button": "Choisir"
+        },
+        {
+            "id": "plan4",
+            "price_per_month": 5,
+            "price_per_year": 50,
+            "button": "Contacter"
+        },
+        {
+            "id": "plan5",
+            "price_per_month": 5,
+            "price_per_year": 50,
+            "button": "Contacter",
+            "footer": "Lorem Ipsum fjsj fkls jflk j"
+        }
+    ],
+    "sections": [{
+            "name": "Check",
+            "items": [{
+                    "name": "Check public",
+                    "plan1": "+oo",
+                    "plan2": "+oo",
+                    "plan3": "+oo",
+                    "plan4": "+oo",
+                    "plan5": "+oo"
+                },
+                {
+                    "name": "Check custom",
+                    "plan1": "N/A",
+                    "plan2": 1,
+                    "plan3": 5,
+                    "plan4": 20,
+                    "plan5": "+oo"
+                }
+            ]
+        },
+        {
+            "name": "Craft",
+            "items": [{
+                    "name": "Craft public",
+                    "plan1": "+oo",
+                    "plan2": "+oo",
+                    "plan3": "+oo",
+                    "plan4": "+oo",
+                    "plan5": "+oo"
+                },
+                {
+                    "name": "Craft custom",
+                    "plan1": "N/A",
+                    "plan2": 1,
+                    "plan3": 5,
+                    "plan4": 20,
+                    "plan5": "+oo"
+                }
+            ]
+        },
+        {
+            "name": "Options",
+            "items": [{
+                    "name": "Check",
+                    "plan1": "+oo",
+                    "plan2": "+oo",
+                    "plan3": "+oo",
+                    "plan4": "+oo",
+                    "plan5": "+oo"
+                },
+                {
+                    "name": "Craft",
+                    "plan1": "N/A",
+                    "plan2": 1,
+                    "plan3": 5,
+                    "plan4": 20,
+                    "plan5": "+oo"
+                }
+            ]
+        }
+    ]
+}

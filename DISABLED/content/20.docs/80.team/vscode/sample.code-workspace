@@ -1,0 +1,23 @@
+{
+    "folders": [
+        {
+            "uri": "s3://shared@uat-devperf/?debug=1&profile=devperf&endpoint=http%3A%2F%2Fs3.fr-par.scw.cloud",
+            "name": "devperf S3 bucket"
+        },
+        {
+            "uri": "s3://shared@cdch1uat/?debug=1&profile=paxpar&endpoint=http%3A%2F%2Fs3.fr-par.scw.cloud",
+            "name": "paxpar S3 bucket"
+        },
+        {
+            "uri": "s3://shared@uat-devperf/?debug=1&profile=arty&endpoint=http%3A%2F%2Fs3.fr-par.scw.cloud",
+            "name": "arty S3 bucket"
+        },
+        {
+            "uri": "sftp://bob:secret@localhost",
+            "name": "SFTP localhost"
+        },
+        {
+            "path": "."
+        }
+    ]
+}

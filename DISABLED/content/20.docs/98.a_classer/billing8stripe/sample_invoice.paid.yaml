@@ -1,0 +1,188 @@
+id: evt_1NLOS0K0npsJqs8M25Q9Tng9
+object: event
+api_version: '2020-08-27'
+created: 1687343987
+livemode: false
+pending_webhooks: 2
+request:
+  id: req_d1LfHw6cbwFuHf
+  idempotency_key: d84dc76a-56b0-45d2-81fa-03bd8a7dd8b4
+type: invoice.paid
+data:
+  object:
+    id: in_1NLORwK0npsJqs8MhJ5wpwlp
+    object: invoice
+    account_country: PT
+    account_name: arundo.tech
+    account_tax_ids:
+    amount_due: 22560
+    amount_paid: 22560
+    amount_remaining: 0
+    amount_shipping: 0
+    application:
+    application_fee_amount:
+    attempt_count: 1
+    attempted: true
+    auto_advance: false
+    automatic_tax:
+      enabled: true
+      status: complete
+    billing_reason: subscription_create
+    charge: ch_3NLORxK0npsJqs8M0FWAb8SB
+    collection_method: charge_automatically
+    created: 1687343984
+    currency: eur
+    custom_fields:
+    customer: cus_O7djIRyZZX2bNn
+    customer_address:
+      city: Gélannes
+      country: FR
+      line1: 6 Rue des Cornuattes
+      line2:
+      postal_code: '10100'
+      state:
+    customer_email: philippe.entzmann+s20@gmail.com
+    customer_name: Philippe ENTZMANN
+    customer_phone: "+33607650693"
+    customer_shipping:
+    customer_tax_exempt: none
+    customer_tax_ids: []
+    default_payment_method:
+    default_source:
+    default_tax_rates: []
+    description:
+    discount:
+    discounts: []
+    due_date:
+    ending_balance: 0
+    footer:
+    from_invoice:
+    hosted_invoice_url: https://invoice.stripe.com/i/acct_1HvfAjK0npsJqs8M/test_YWNjdF8xSHZmQWpLMG5wc0pxczhNLF9PN2RqbnNROGNjdW9Zc1d4VHVyZFpST1FWT2hjRTVILDc3ODg0Nzg402004E5b3zEF?s=ap
+    invoice_pdf: https://pay.stripe.com/invoice/acct_1HvfAjK0npsJqs8M/test_YWNjdF8xSHZmQWpLMG5wc0pxczhNLF9PN2RqbnNROGNjdW9Zc1d4VHVyZFpST1FWT2hjRTVILDc3ODg0Nzg402004E5b3zEF/pdf?s=ap
+    last_finalization_error:
+    latest_revision:
+    lines:
+      object: list
+      data:
+      - id: il_1NLORwK0npsJqs8MnXIR75HP
+        object: line_item
+        amount: 18800
+        amount_excluding_tax: 18800
+        currency: eur
+        description: 1 × EQUIPE (at €188.00 / month)
+        discount_amounts: []
+        discountable: true
+        discounts: []
+        livemode: false
+        metadata: {}
+        period:
+          end: 1689935984
+          start: 1687343984
+        plan:
+          id: price_1LwpO6K0npsJqs8M9YlAWS4J
+          object: plan
+          active: true
+          aggregate_usage:
+          amount: 18800
+          amount_decimal: '18800'
+          billing_scheme: per_unit
+          created: 1666712998
+          currency: eur
+          interval: month
+          interval_count: 1
+          livemode: false
+          metadata: {}
+          nickname: EQUIPE PAXPAR
+          product: prod_MgBl9JeXMdQ77r
+          tiers_mode:
+          transform_usage:
+          trial_period_days:
+          usage_type: licensed
+        price:
+          id: price_1LwpO6K0npsJqs8M9YlAWS4J
+          object: price
+          active: true
+          billing_scheme: per_unit
+          created: 1666712998
+          currency: eur
+          custom_unit_amount:
+          livemode: false
+          lookup_key:
+          metadata: {}
+          nickname: EQUIPE PAXPAR
+          product: prod_MgBl9JeXMdQ77r
+          recurring:
+            aggregate_usage:
+            interval: month
+            interval_count: 1
+            trial_period_days:
+            usage_type: licensed
+          tax_behavior: exclusive
+          tiers_mode:
+          transform_quantity:
+          type: recurring
+          unit_amount: 18800
+          unit_amount_decimal: '18800'
+        proration: false
+        proration_details:
+          credited_items:
+        quantity: 1
+        subscription: sub_1NLORwK0npsJqs8MC6cthQaf
+        subscription_item: si_O7djDL8Vuzz1ip
+        tax_amounts:
+        - amount: 3760
+          inclusive: false
+          tax_rate: txr_1NL3r3K0npsJqs8MsM5X91fu
+          taxability_reason: standard_rated
+          taxable_amount: 18800
+        tax_rates: []
+        type: subscription
+        unit_amount_excluding_tax: '18800'
+      has_more: false
+      total_count: 1
+      url: "/v1/invoices/in_1NLORwK0npsJqs8MhJ5wpwlp/lines"
+    livemode: false
+    metadata: {}
+    next_payment_attempt:
+    number: F7F149C3-2819
+    on_behalf_of:
+    paid: true
+    paid_out_of_band: false
+    payment_intent: pi_3NLORxK0npsJqs8M0CacRl0T
+    payment_settings:
+      default_mandate:
+      payment_method_options:
+      payment_method_types:
+    period_end: 1687343984
+    period_start: 1687343984
+    post_payment_credit_notes_amount: 0
+    pre_payment_credit_notes_amount: 0
+    quote:
+    receipt_number:
+    rendering_options:
+    shipping_cost:
+    shipping_details:
+    starting_balance: 0
+    statement_descriptor:
+    status: paid
+    status_transitions:
+      finalized_at: 1687343984
+      marked_uncollectible_at:
+      paid_at: 1687343987
+      voided_at:
+    subscription: sub_1NLORwK0npsJqs8MC6cthQaf
+    subtotal: 18800
+    subtotal_excluding_tax: 18800
+    tax: 3760
+    test_clock:
+    total: 22560
+    total_discount_amounts: []
+    total_excluding_tax: 18800
+    total_tax_amounts:
+    - amount: 3760
+      inclusive: false
+      tax_rate: txr_1NL3r3K0npsJqs8MsM5X91fu
+      taxability_reason: standard_rated
+      taxable_amount: 18800
+    transfer_data:
+    webhooks_delivered_at:

@@ -1,0 +1,304 @@
+---
+title: Conformité de Facture
+description: "Je suis artisan et je dois recevoir des factures conformes à la réglementation FX, comment dois-je procéder ?"
+image:
+  src: https://media.paxpar.tech/20230615_Atelier-vtd_conf-fx.jpeg
+authors:
+  - name: Valérie SUIGNARD
+    avatar:
+      src: /avatar/valerie.png
+      target: _blank
+    to: https://www.linkedin.com/in/valerie-suignard/
+  - name: Nadine MASSON
+    avatar:
+      src: /avatar/nadine.png
+      target: _blank
+    to: https://www.linkedin.com/company/76156489/admin/feed/posts/
+  - name: Guillaume PETIT
+    avatar:
+      src: /avatar/guillaumep.png
+      target: _blank
+    to: https://www.linkedin.com/in/guillaume-petit-014b0478/
+  - name: Francoise ENTZMANN
+    avatar:
+      src: /avatar/francoise.png
+      target: _blank
+    to: https://www.linkedin.com/in/fentzmann/
+date: 2023-06-15
+---
+
+
+
+Vous êtes une petite entreprise, un artisan et pour vous, la facture électronique est un sujet complexe ? 
+
+Pourtant, à partir de juillet 2024, nous devrons tous avoir la capacité de les recevoir. Mais comment être sûr qu'elles sont bien conformes et qu'elles peuvent être réglées ? 
+
+Lors de ce webinaire de 30 minutes, on vous explique comment contrôler la validité et la conformité de vos factures électroniques : IBAN, identité de l'émetteur, TVA, signature électronique avec l'outil VerifTonDoc...
+
+Grâce à lui, plus de doute, vous pouvez aquitter vos factures en toute sérénité !
+
+* validité et conformité des données
+* validité des signatures électroniques
+
+# Atelier du 15/06/2023
+
+## Discours de Guillaume présentation 
+
+::ppw-chat-conversation
+---
+conversation:
+    - guillaumep: "Bonjour et bienvenue. Merci d’être là...
+Nous allons passer 30 minutes ensemble, je vais donc me présenter..."
+---
+::
+
+## Pitch - Scénario
+
+::ppw-chat-conversation
+---
+animate: true
+conversation:
+    - guillaumep: "A partir de 2024 : obligation de dématérialisation de la facture électronique à émission.  "
+    - guillaumep: "• le 1er juillet 2024 pour les grandes entreprises"
+    - guillaumep: "• le 1er janvier 2025 pour les entreprises de taille intermédiaire (ETI)"
+    - guillaumep: "• le 1er janvier 2026 pour les petites et moyennes entreprises (PME) et les micro-entreprises"
+    - guillaumep: "Cette obligation s’accompagne de nouvelles mentions obligatoires qui doivent être ajoutées à la facture"
+    - guillaumep: "Les objectifs de la facture électronique sont multiples pour l'administration fiscale"
+    - guillaumep: "Lutter plus efficacement contre la fraude à la TVA"
+    - guillaumep: "Améliorer la compétitivité des entreprises grâce à la dématérialisation. Celle-ci permet une diminution des délais de paiement et donc une baisse de la charge administrative"
+    - guillaumep: "Simplifier, à terme, les obligations déclaratives de TVA grâce au pré-remplissage des déclarations"
+    - guillaumep: "Améliorer la connaissance de l'activité des entreprises en temps réel"
+---
+::
+
+![](https://media.paxpar.tech/fx1.png)
+
+::ppw-chat-conversation
+---
+conversation:
+    - guillaumep: "Vous êtes un artisan, une petite entreprise ? Pas d’inquiétude, pour 2024 vous avez l’obligation uniquement de réceptionner les factures électroniques." 
+    - guillaumep: "3 formats couramment utilisés - UBL, CII et Factur-X"
+    - guillaumep: "Dans notre exemple, nous allons prendre la facture au format Factur-X le plus couramment utilisé." 
+    - guillaumep: "Qu’est ce qu'une factur-X ?"
+    - guillaumep: "..."
+    - guillaumep: "Il est nécessaire de pouvoir vérifier la légitimité de leur contenu avant la mise en paiement, afin d’éviter les risques."
+    - guillaumep: "..."
+---
+::    
+
+![](https://media.paxpar.tech/fx2.png)
+
+::ppw-chat-conversation
+---
+conversation:
+    - guillaumep: "Nous allons vous présenter le cas d'un artisan qui reçoit des factures électroniques de France comme de l'étranger et qui veut s'assurer qu'elles sont conformes."
+---
+::
+
+![](https://media.paxpar.tech/atelier_conf-fx_scenario.png)
+
+## Acteurs
+::ppw-chat-conversation
+---
+conversation:
+    - guillaumep: "..."
+---
+::
+
+![](https://media.paxpar.tech/atelier_conf-fx_acteurs.png)
+
+## Introduction du premier cas
+
+::ppw-chat-conversation
+---
+conversation:
+    - guillaumep: "Edouard DUPONT commence à recevoir des factures électroniques de Total au format factur-X"
+---
+::
+
+![](https://media.paxpar.tech/atelier_conf-fx_2-ed.png)
+
+## Mise en scène 
+
+::ppw-chat-conversation
+---
+conversation:
+    - edouard: "J'ai reçu une facture Total et je vais la vérifier dans VérifTonDoc pour voir si elle est correcte"
+---
+::
+
+::ppw-showcase-check
+---
+pdfs:
+  - url: "/documents/ffx_ed_186_02.pdf"
+    check_result: "/blog/2023/06/_cl_ffx_total_02"   
+    name: "Facture Total FA202302"
+    conversation:
+        - edouard: "La checklist m'indique qu'elle n'est pas au format factur-X" 
+        - edouard: "Si je déroule, il manque des mentions obligatoires dans les métadonnées : le N° de SIREN de l'émetteur ainsi que mon adresse"
+        - edouard: "Pourtant visuellement ça apparaît bien"        
+        - edouard: "Je ne peux pas accepter cette facture"                  
+---
+:: 
+
+****
+
+![](https://media.paxpar.tech/atelier_conf-fx_3-ed-gui.png)
+
+::ppw-chat-conversation
+---
+conversation:
+    - edouard: "Bonjour Guillaume, je t'appelle car j'ai la facture N°FA202302 qui n'est pas au format factur-X"
+    - guillaume: "Bonjour Edouard, comment ça elle n'est pas au format factur-X ! Elle a bien des métadonnées ?"
+    - edouard: "Oui mais il manque des mentions obligatoires"
+    - guillaume: "Comment tu peux le savoir, tu es un expert en informatique ?"
+    - edouard: "Pas du tout loin de là, je suis simplement abonné à la plateforme VérifTonDoc et je me contente de déposer les pdfs. En fait c'est une plateforme de vérification documentaire, donc c'est une checklist qui me dit si ma facture est correcte ou pas"
+    - edouard: "Tu comprends, comme j'ai déjà été victime de fraude, là au moins je suis confiant dans les factures que je peux régler. Je ne t'accuse pas de fraude !!!"
+    - guillaume: "Je suis vraiment désolé, je ne sais pas ce qui s'est passé, je vais voir avec mon service facturation et je t'en renvoie une correcte, tiens-moi au courant !"                
+---
+::   
+
+## Introduction du deuxième cas
+
+::ppw-chat-conversation
+---
+conversation:
+    - guillaumep: "Voiçi un deuxième cas, cette fois c'est un fournisseur Portugais de matériel électrique"
+---
+::
+
+![](https://media.paxpar.tech/atelier_conf-fx_4-ed.png)
+
+::ppw-chat-conversation
+---
+conversation:
+    - edouard: "Je dépose cette facture sur VérifTonDoc"
+---
+::
+
+::ppw-showcase-check
+---
+pdfs:
+  - url: "/documents/ffx_ed_buri.pdf"  
+    check_result: "/blog/2023/06/_cl_ffx_buri_01"
+    name: "Facture BURIPANERA_01"
+    conversation:
+        - edouard: "Cette facture n'est pas correcte, la checklist m'indique que la TVA est à 23% alors que dans l'union européenne on doit appliquer une TVA à 0%"
+        - edouard: "Si je paie la facture, je ne pourrais pas me faire rembourser la TVA par le fisc français" 
+        - edouard: "Je dois le signaler à Adrien, heureusement, il parle français"
+        - edouard: "Allo, Adrien bonjour, c'est Edouard, je t'appelle car tu m'as facturé de la TVA sur ma dernière facture alors que tu n'aurais pas dû" 
+        - adrien: "Bonjour Edouard, ha bon, c'est une erreur de mon sécretaire"
+        - adrien: "Je vais lui demander de la refaire et de te la renvoyer. Toutes mes excuses. "                                  
+---
+::
+
+![](https://media.paxpar.tech/atelier_conf-fx_6-ed-adr.png)
+
+::ppw-chat-conversation
+---
+conversation:
+    - edouard: "Heureusement que la plateforme VérifTonDoc vérifie également les conformités métier car je serais passé à côté de cette non-conformité TVA si j'avais dû vérifier manuellement."
+---
+::
+
+## Introduction du troisième cas
+
+::ppw-chat-conversation
+---
+conversation:
+    - guillaumep: "Edouard DUPONT reçoit deux factures de Total, la facture N° FA202302 rectifiée ainsi qu'une autre la FA202303"
+---
+::
+
+![](https://media.paxpar.tech/atelier_conf-fx_5-ed.png)
+
+::ppw-chat-conversation
+---
+conversation:
+    - edouard: "Voyons si je dépose la facture rectifiée" 
+---
+::
+
+::ppw-showcase-check
+---
+pdfs:
+  - url: "/documents/ffx_ed_186_01.pdf"  
+    check_result: "/blog/2023/06/_cl_ffx_total_01"    
+    name: "Facture Total FA2023-01"
+    conversation:
+        - edouard: "Cette fois-ci tout est vert, je peux la régler"
+  - url: "/documents/ffx_ed_186_03.pdf"
+    check_result: "/blog/2023/06/_cl_ffx_total_03"
+    name: "Facture Total FA2023-03"
+    conversation: 
+        - edouard: "La deuxième maintenant, celle-ci est au format factur-X mais elle a un statut rouge sur la conformité financière. C'est l'IBAN qui pose problème"        
+        - edouard: "Visuellement, sur la facture, c'est bien celui de Total mais la cheklist m'indique qu'il y a une différence entre les métadonnées de la facture et l'IBAN enregistré dans mon ERP"
+        - edouard: "La signature dans le format pdf a un statut vert car c'est une vrai signature avec un vrai certificat mais dans la partie métier ce n'est la signature de Nadine car ce n'est pas sa clé publique. Cela veut dire que la facture envoyée par Guillaume a du être falsifiée"
+        - edouard: "Si je n'avais la plateforme VérifTonDoc, j'aurais encore été victime de fraude. Je vais avertir Guillaume"
+        - edouard: "Allo, Guillaume, alors concernant la facture N°FA202301 cette fois-ci elle est correcte par contre la N°FA202302 a été falsifiée car je t'ai parlé l'autre jour de la plateforme VérifTonDoc, et bien elle n'indique que l'IBAN dans les métadonnées n'est pas celui de Total et que la signature de ta secrétaire a été usurpée" 
+        - guillaume: "Comment c'est possible ? Je n'aurais jamais cru qu'on puisse être piraté"
+        - guillaume: "Il faudrait que tu m'en dises un peu plus sur cet outil pour le proposer dans notre groupe"                                                     
+---
+:: 
+
+****
+
+::ppw-chat-conversation
+---
+conversation:
+    - guillaumep: "Voici le récapitulatif de ce qu'Edouard peut vérifier en automatique et de manière exhaustive pour toutes ses factures grâce à la plateforme VérifTondoc. Cela représente pour lui un gain de temps considérable et surtout la garantie qu'il peut désormais acquitter ses factures en toute confiance dès lors que les points de contrôle de la checklist sont verts." 
+---
+::
+
+::ppw-anim
+---
+href: "https://media.paxpar.tech/vtd_ed-du.svg"
+---
+::
+
+# Questions
+
+Est-ce que toutes les factures dématérialisées que je reçois sont déjà au format Factur-X ?
+
+    Vous recevez peut-être déjà des factures dématérialisées, cela ne veut pas dire qu'elles soient au format Factur-X.
+    Elles peuvent être un pdf simple
+    Un pdf simple signé électroniquement
+    une image
+    certaines circulent déjà dans le format Factur-X 
+    
+    Seul le format Factur-X dans la liste que je viens de vous présenter sera considéré comme valide par l'administration parce qu'il contient les métadonnées utiles, exploitables et réglementaires concernant chaque facture. En juillet 2024, une facture émise par une grande entreprise à l'adresse de ses clients, tels que vous (artisans, TPE, PME) devra impérativement respecter les normes légales. 
+    
+    Pour ce qui est de vos fournisseurs de plus petite taille, vous continuerez, pendant un temps, à recevoir vos factures comme c'est le cas aujourd'hui. 
+    Les entreprises de taille intermédiaire (ETI) pourraient anticiper l'obligation légale (janvier 2025) et commencer à envoyer des factures électroniques (au format Factur-X) avant cette date.    
+
+Est ce que vous êtes en capacité de vérifier les autres formats: UBL et CII ?
+
+    Ce qu'il faut comprendre sur le rôle de ces 3 formats : le PPF est en capacité de recevoir via des moyens de communication différents et de lire des formats différents.
+    Concernant les moyens de communication, il en existe actuellement 2 qui sont le support de type flux et le support de type document.
+    Le 1er cas, qui normalement est celui qui sera à priori le plus utilisé, correspond au support de type flux, combiné au format de lecture de type UBL, C2I. Ce cas répondra à un flux de factures important.
+    Le 2eme cas, correspond à une solution alternative à cette automatisation de flux, car gérer les exceptions est une action couteuse. Donc cette fois ci le support choisi est le document PDF, qui admet en pièce jointe le fichier xml. La lecture de ce fichier xml s'appuie sur le format factur-X.
+    Le 3eme cas prendra tous les autres cas de figure à savoir des factures scannées, où les solutions de type OCR, IA viennet faciliter la re-saisie. Mais dans ce cas nous n'avons pas de méta-données associées au support.
+
+    Par rapport à ces 3 cas, nous nous positionnons sur le second cas, car nous sommes convaincus que la plupart des acteurs, tout au moins au début de la mise en place de cette réforme, seront nombreux.
+    Pour rappel, il s'agit de la facture ayant des méta données au format factur-X, via un support de type document PDF, combinée à la signature électronique. Cette approche a plusieurs avantages que nous pourrions vous présenter lors d'un prochain webinar, en soulignant les pour et contre de ces options et finalement quels seraient vos gains.
+    
+    https://www.linkedin.com/pulse/factur-xubl-et-cii-les-formats-de-facture-attendus/
+
+    https://blog.tiime.fr/les-formats-de-la-facture-electronique
+
+Vous avez parlé de conformité métier, qu'est ce que vous pouvez vérifier concrétement ?
+
+    La conformité métier se définit avec vous, ils correspondent à vos points de contrôle spécifiques. Par exemple, Edouard a une nécessité de vérifier le taux de TVA avec le Portugal car il s'approvisionne en matière première, mais ce n'est pas le cas de tout électricien.
+    On définit ces points de contrôle ensemble pour être au plus prés de vos contrôles "manuels".
+
+    Comment procède-t-on ? 
+    
+    à partir de notre arborescence documentaire, nous avons accès à l'ensemble de vos méta données, par conséquent nous avons la capacité de comparer, estimer chaque méta donnée par rapport à vos spécifications, seuils d'alerte.
+
+    Si vous avez en tête des cas d'usage, que vous souhaiteriez voir, n'hésitez pas à revenir vers nous. Nous vous permettrons d'automatiser vos contrôles en réalisant un minimum d'investissement et donc d'effort.
+
+
+Quel certificat électronique pour signer les factures ?  
+
+
+

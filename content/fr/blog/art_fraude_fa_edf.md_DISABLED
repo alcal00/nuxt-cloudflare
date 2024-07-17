@@ -1,0 +1,139 @@
+---
+title: Justificatif
+description: "Arnaque au prêt à la cnsommation"
+image:
+  src: https://media.paxpar.tech/vtd_edf1.jpg
+authors:
+  - name: Valérie SUIGNARD
+    avatar:
+      src: /avatar/valerie.png
+      target: _blank
+    to: https://www.linkedin.com/in/valerie-suignard/
+date: 2023-08-30
+---
+
+
+# Arnaque au prêt à la cnsommation
+
+
+## Tout va bien
+
+Je travaille pour une société de prêt à la consommation. Si un consommateur a besoin d’un prêt à la consommation, nous lui demandons des pièces justificatives (pièce d’identité en cours de validité, dernier justificatif de domicile, dernier bulletin de salaire, relevé d’identité bancaire…). [^2]
+
+Après collecte des justificatifs demandés, le prêt est accordé.
+
+L’emprunteur rembourse des mensualités jusqu’au remboursement effectif de la somme due.
+
+## Mauvais payeur : Les faits
+
+Il arrive que nous devions relancer certains emprunteurs pour réclamer le versement des mensualités de remboursement d’un prêt à la consommation qu’ils ont contracté. Nous envoyons à cet effet des courriers de relance.
+
+## Quand le destinataire n’habite pas à l’adresse indiquée…
+
+Nous avons récemment été alerté par un citoyen. Il nous a signalé que, depuis plusieurs mois déjà, il recevait des courriers de relance de notre part adressés à Mme Isabelle L. chez lui, mais que cette dame n’habite pas à cette adresse !
+
+En vérifiant dans notre base de données, puis dans dans les pièces constituant le dossier de Mme Isabelle L., l’adresse renseignée est pourtant bien celle incriminée, même sur le justificatif de domicile fourni, à savoir une facture EDF.
+
+Deux options :
+
+📍 soit notre citoyen est de mauvaise foi,
+📍 soit Mme Isabelle L. nous a fourni un faux document.
+
+Nous avons donc mené l’enquête…
+
+## L'enquête
+
+La question qui se pose est de savoir quelle confiance nous devons accorder à la facture EDF fournie comme justificatif de domicile. Pour répondre à cette question, nous avons émis quelques hypothèses, certes qui ne sont pas exhaustives mais qui ont le mérite de nous sensibiliser sur certains risques.
+
+### Première hypothèse : Le justificatif est une photocopie de l’original de la facture incriminée ?
+
+➡️ Impossible alors de discerner une vraie facture d’une fausse.
+
+### Seconde hypothèse : Le justificatif est une version numérique de la facture ?
+
+➡️ Nous disposons donc d’une version de la facture EDF au format pdf.
+
+➡️ Et nous avons une chance de découvrir si la facture qu’on nous a fournie est vraie ou non. 
+
+## Les outils
+
+Mais comment faire pour vérifier l’authenticité de cette facture EDF ? Je dispose de quels outils ?
+
+### Le visuel seul : pas suffisant
+
+De prime abord, on constate sur le document lui-même, en haut à droite de la première page, la mention rassurante : « document électronique certifié authentique ». Cela laisse entendre que cette version est authentique. 
+
+![](/images/images_putaclic/vtd_edf2.jpg)
+
+L’est-elle pour autant ? Le pdf transmis à ma société de prêt peut être une version imprimée puis scannée, auquel cas les données de signature électronique normalement attachées au pdf de facture, ne sont plus associées et donc perdues pour tout le monde… 
+
+➡️ J’en conclue qu’en me basant uniquement sur le visuel du pdf, je n’ai aucune garantie qu’il soit authentique.
+
+### Adobe : une première approche mais... insuffisante !
+
+Vous pouvez déposer le PDF de la facture EDF sur Adobe par exemple. 
+Voici deux factures, d’apparence semblables, laquelle est authentique ?
+
+:pw-pdf-link{href="/documents/pu_edfb.pdf"} 
+
+:pw-pdf-link{href="/documents/pu_edfd.pdf"}
+
+Voyons le résultat obtenu en déposant chacune d’elles sur Adobe 
+
+![](/images/images_putaclic/vtd_edf4.jpg)
+
+Adobe est donc en mesure de vous dire s’il y a bien une signature électronique apposée sur le document pdf que vous testez, vous serez fixés sur la validité de cette signature.
+
+📍 Avec la première facture, Adobe affiche bien une coche verte, il y a donc bien une signature et elle est valide.
+📍 Avec le deuxième pdf, Adobe ne détecte aucune signature et vous l’indique : vous n’avez même pas accès au panneau signature. La version B n’est donc pas l’original.
+
+Observons maintenant les deux pdfs ci-dessous, d’apparence identiques
+
+:pw-pdf-link{href="/documents/pu_edfd.pdf"} 
+
+:pw-pdf-link{href="/documents/pu_edfc.pdf"}
+
+Avec le deuxième pdf, Adobe affiche bien une coche verte, il y a donc bien une signature et elle est valide.
+
+![](/images/images_putaclic/vtd_edf6.jpg)
+
+#### Adobe : Conclusion
+
+📍 Pour la facture originale, Adobe indique que tout est ok, coche verte, et annonce que le signataire est la société EDF
+📍 Pour la facture falsifiée signée électroniquement, Adobe indique que tout est ok, coche verte, et annonce que le signataire est la société EDF
+
+Si je ne cherche pas plus loin, je pourrai m’en tenir là et considérer que la fausse facture, celle que Mme Isabelle L. nous a fourni comme justificatif de domicile est bien une facture authentique. 
+Le citoyen qui reçoit les factures chez lui est un menteur. Je vais continuer à envoyer les relances de factures à son adresse avec les frais d’impayés. Il recevra d’ailleurs prochainement un courrier de mise en demeure.
+
+### paxpar : vérification exhaustive, la plateforme vous alerte si le signataire n’est pas reconnu !
+
+✋ **STOP** ! Les tests de vérification de signature menés sont insuffisants pour différencier une facture EDF authentique d’une facture EDF falsifiée !!
+La plateforme paxpar est paramétrable. Non seulement elle fera une analyse systématique de vos pdf de facture et vous indiquera si elles sont ou non signées, mais elle ira aussi **comparer le certificat de signature avec celui attendu**.
+
+::ppw-showcase-check
+---  
+pdfs:
+- url: "/documents/pu_edfb.pdf"
+  check_result: "/blog/2023/10/_cl_edf_20230524b.yaml"
+  name: "Facture EDF"
+- url: "/documents/pu_edfc.pdf"
+  check_result: "/blog/2023/10/_cl_edf_20230524c.yaml"
+  name: "Facture EDF"                    
+---
+::  
+
+Le certificat de signature EDF a été appliqué, le résultat de l’analyse du PDF et celui de l’analyse métier seront des coches vertes.
+La plateforme détecte une signature électronique, le résultat de l’analyse du pdf indiquera qu’il y a bien une signature électronique valide, mais **si le certificat de signature apposé sur la facture n’est pas celui attendu pour une facture EDF, alors la plateforme vous alertera avec un blason rouge au niveau des critères d’analyse métier de la facture**. 
+
+## Les conclusions de l’enquête
+
+La présence d’une signature n’est pas suffisante ! **Il faut que la facture dispose d’une signature électronique correspondant effectivement au signataire annoncé**.
+
+**Si ce n’est pas le cas, alors il y a usurpation d’identité de signature, le document fourni comme justificatif de domicile est un faux.** Je dois alors avertir la société de prêt à la consommation pour laquelle je travaille qu’un dépôt de plainte est nécessaire pour espérer récupérer les sommes dues par notre cliente arnaqueuse. 
+
+## Nous contacter ? Une démo ?
+info@paxpar.tech
+
+## Les références
+[^1]: https://www.pexels.com/fr-fr/photo/main-bureau-affaires-document-7247410/ (crédit photo : Photo de Leeloo Thefirst)
+[^2]: https://www.checkmoncredit.fr/credit-consommation/sofinco-justificatifs-credit 

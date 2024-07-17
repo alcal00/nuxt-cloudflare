@@ -1,0 +1,3226 @@
+id: common.checklists._bootstrap
+name: null
+desc: null
+icon: null
+status: OK
+module: null
+factice: false
+children:
+  - id: upload
+    name: Fichier edf_20230524.pdf déposé
+    desc: ""
+    icon: mdi:file-arrow-up-down-outline
+    status: OK
+    module: ref.frozen._sys.upload
+    factice: false
+    children: []
+    props:
+      files:
+        - filename: edf_20230524.pdf
+          file: {}
+          size: 192466
+          headers:
+            content-disposition: form-data; name="file"; filename="edf_20230524.pdf"
+            content-type: application/pdf
+      file:
+        filename: edf_20230524.pdf
+        file: {}
+        size: 192466
+        headers:
+          content-disposition: form-data; name="file"; filename="edf_20230524.pdf"
+          content-type: application/pdf
+      filename: edf_20230524.pdf
+    content: ""
+    options: null
+    view: null
+    done: true
+    root: null
+    assert: null
+    props_: {}
+    triples: []
+  - id: pdf
+    name: Analyse format PDF
+    desc: ""
+    icon: mdi-file-pdf-box
+    status: OK
+    module: ref.frozen._sys.pdf_info
+    factice: false
+    children:
+      - id: 913c6bf2-7cad-11ee-843c-62d701a26ab6
+        name: 192 Ko, 6 pages
+        desc: null
+        icon: mdi:file-pdf-box
+        status: INFO
+        module: null
+        factice: false
+        children: []
+        props: {}
+        content: ""
+        options: null
+        view: null
+        done: true
+        root: null
+        assert: null
+        props_: {}
+        triples: []
+      - id: 913c8614-7cad-11ee-843c-62d701a26ab6
+        name: Format PDF/A
+        desc: null
+        icon: mdi:file-pdf-box
+        status: INFO
+        module: null
+        factice: true
+        children:
+          - id: 913c8b78-7cad-11ee-843c-62d701a26ab6
+            name: Document PDF/A-1
+            desc: null
+            icon: mdi:file-pdf-box
+            status: INFO
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: <a target="_blank"href="https://www.iso.org/standard/38920.html">Norme
+              ISO-19005-1 - (Part 1 / Use of PDF 1.4)</a>
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 913c9078-7cad-11ee-843c-62d701a26ab6
+            name: Document PDF/A-2
+            desc: null
+            icon: mdi:file-pdf-box
+            status: INFO
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: <a target="_blank"href="https://www.iso.org/standard/50655.html">Norme
+              ISO-19005-2 - (Part 2 / Use of ISO 32000-1)</a>
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 913c93ca-7cad-11ee-843c-62d701a26ab6
+            name: Document PDF/A-3
+            desc: null
+            icon: mdi:file-pdf-box
+            status: INFO
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: <a target="_blank"href="https://www.iso.org/standard/57229.html">Norme
+              ISO-19005-3 - (Part 3 / Use of ISO 32000-1 with support for
+              embedded files)</a>
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 913c9a0a-7cad-11ee-843c-62d701a26ab6
+            name: Document PDF/A-4
+            desc: null
+            icon: mdi:file-pdf-box
+            status: INFO
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: <a target="_blank"href="https://www.iso.org/standard/71832.html">Norme
+              ISO-19005-4 - (Part 4 / Use of ISO 32000-2)</a>
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+        props: {}
+        content: ""
+        options: null
+        view: null
+        done: true
+        root: null
+        assert: null
+        props_: {}
+        triples: []
+      - id: 913cb706-7cad-11ee-843c-62d701a26ab6
+        name: Metadonnées XMP
+        desc: null
+        icon: mdi-marker-check
+        status: OK
+        module: null
+        factice: false
+        children:
+          - id: 913cbb34-7cad-11ee-843c-62d701a26ab6
+            name: /Creator
+            desc: null
+            icon: mdi-marker-check
+            status: OK
+            module: null
+            factice: false
+            children:
+              - id: 913cbe2c-7cad-11ee-843c-62d701a26ab6
+                name: OpenText Exstream Version 16.4.0 64-bit
+                desc: null
+                icon: mdi-marker-check
+                status: OK
+                module: null
+                factice: false
+                children: []
+                props: {}
+                content: ""
+                options: null
+                view: null
+                done: true
+                root: null
+                assert: null
+                props_: {}
+                triples: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 913cc4ee-7cad-11ee-843c-62d701a26ab6
+            name: /CreationDate
+            desc: null
+            icon: mdi-marker-check
+            status: OK
+            module: null
+            factice: false
+            children:
+              - id: 913cc8c2-7cad-11ee-843c-62d701a26ab6
+                name: D:20230517061612Z
+                desc: null
+                icon: mdi-marker-check
+                status: OK
+                module: null
+                factice: false
+                children: []
+                props: {}
+                content: ""
+                options: null
+                view: null
+                done: true
+                root: null
+                assert: null
+                props_: {}
+                triples: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 913cce80-7cad-11ee-843c-62d701a26ab6
+            name: /Author
+            desc: null
+            icon: mdi-marker-check
+            status: OK
+            module: null
+            factice: false
+            children:
+              - id: 913cd1d2-7cad-11ee-843c-62d701a26ab6
+                name: "Registered to: EDF     "
+                desc: null
+                icon: mdi-marker-check
+                status: OK
+                module: null
+                factice: false
+                children: []
+                props: {}
+                content: ""
+                options: null
+                view: null
+                done: true
+                root: null
+                assert: null
+                props_: {}
+                triples: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 913cd830-7cad-11ee-843c-62d701a26ab6
+            name: /Title
+            desc: null
+            icon: mdi-marker-check
+            status: OK
+            module: null
+            factice: false
+            children:
+              - id: 913cdcc2-7cad-11ee-843c-62d701a26ab6
+                name: FACTURE_FELIX_NOUVEAU_FACO
+                desc: null
+                icon: mdi-marker-check
+                status: OK
+                module: null
+                factice: false
+                children: []
+                props: {}
+                content: ""
+                options: null
+                view: null
+                done: true
+                root: null
+                assert: null
+                props_: {}
+                triples: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+        props: {}
+        content: ""
+        options: null
+        view: null
+        done: true
+        root: null
+        assert: null
+        props_: {}
+        triples: []
+      - id: schema
+        name: Aucun Schéma ID trouvé
+        desc: null
+        icon: mdi-close-circle-outline
+        status: INFO
+        module: null
+        factice: false
+        children: []
+        props: {}
+        content: ""
+        options: null
+        view: null
+        done: true
+        root: null
+        assert: null
+        props_: {}
+        triples: []
+      - id: attachments
+        name: Aucune pièce jointe
+        desc: null
+        icon: mdi-attachment
+        status: OK
+        module: null
+        factice: false
+        children: []
+        props: {}
+        content: ""
+        options: null
+        view: null
+        done: true
+        root: null
+        assert: null
+        props_: {}
+        triples: []
+      - id: 913d4086-7cad-11ee-843c-62d701a26ab6
+        name: 1 signature PAdES
+        desc: null
+        icon: mdi:pen
+        status: OK
+        module: null
+        factice: false
+        children:
+          - id: 913d46bc-7cad-11ee-843c-62d701a26ab6
+            name: "Signature 1/1 : Signature de None"
+            desc: null
+            icon: mdi:account-box
+            status: OK
+            module: null
+            factice: false
+            children:
+              - id: 913d4978-7cad-11ee-843c-62d701a26ab6
+                name: Certificat 1/1
+                desc: null
+                icon: mdi:certificate
+                status: OK
+                module: null
+                factice: false
+                children:
+                  - id: 913d4d9c-7cad-11ee-843c-62d701a26ab6
+                    name: issuer
+                    desc: null
+                    icon: mdi:account-key
+                    status: OK
+                    module: null
+                    factice: false
+                    children:
+                      - id: 913d52ba-7cad-11ee-843c-62d701a26ab6
+                        name: "C : LU"
+                        desc: null
+                        icon: mdi:certificate
+                        status: OK
+                        module: null
+                        factice: false
+                        children: []
+                        props: {}
+                        content: ""
+                        options: null
+                        view: null
+                        done: true
+                        root: null
+                        assert: null
+                        props_: {}
+                        triples: []
+                      - id: 913d594a-7cad-11ee-843c-62d701a26ab6
+                        name: "O : LuxTrust S.A."
+                        desc: null
+                        icon: mdi:certificate
+                        status: OK
+                        module: null
+                        factice: false
+                        children: []
+                        props: {}
+                        content: ""
+                        options: null
+                        view: null
+                        done: true
+                        root: null
+                        assert: null
+                        props_: {}
+                        triples: []
+                      - id: 913d5ee0-7cad-11ee-843c-62d701a26ab6
+                        name: "CN : LuxTrust Global Qualified CA 3"
+                        desc: null
+                        icon: mdi:certificate
+                        status: OK
+                        module: null
+                        factice: false
+                        children: []
+                        props: {}
+                        content: ""
+                        options: null
+                        view: null
+                        done: true
+                        root: null
+                        assert: null
+                        props_: {}
+                        triples: []
+                    props: {}
+                    content: ""
+                    options: null
+                    view: null
+                    done: true
+                    root: null
+                    assert: null
+                    props_: {}
+                    triples: []
+                  - id: 913d6552-7cad-11ee-843c-62d701a26ab6
+                    name: subject
+                    desc: null
+                    icon: mdi:account-key-outline
+                    status: OK
+                    module: null
+                    factice: false
+                    children:
+                      - id: 913d6804-7cad-11ee-843c-62d701a26ab6
+                        name: "O : ELECTRICITE DE FRANCE"
+                        desc: null
+                        icon: mdi:certificate
+                        status: OK
+                        module: null
+                        factice: false
+                        children: []
+                        props: {}
+                        content: ""
+                        options: null
+                        view: null
+                        done: true
+                        root: null
+                        assert: null
+                        props_: {}
+                        triples: []
+                      - id: 913d6c8c-7cad-11ee-843c-62d701a26ab6
+                        name: "2.5.4.97 : \x13\x11VAT-FR03552081317"
+                        desc: null
+                        icon: mdi:certificate
+                        status: OK
+                        module: null
+                        factice: false
+                        children: []
+                        props: {}
+                        content: ""
+                        options: null
+                        view: null
+                        done: true
+                        root: null
+                        assert: null
+                        props_: {}
+                        triples: []
+                      - id: 913d7150-7cad-11ee-843c-62d701a26ab6
+                        name: "C : FR"
+                        desc: null
+                        icon: mdi:certificate
+                        status: OK
+                        module: null
+                        factice: false
+                        children: []
+                        props: {}
+                        content: ""
+                        options: null
+                        view: null
+                        done: true
+                        root: null
+                        assert: null
+                        props_: {}
+                        triples: []
+                      - id: 913d76a0-7cad-11ee-843c-62d701a26ab6
+                        name: "CN : ELECTRICITE DE FRANCE"
+                        desc: null
+                        icon: mdi:certificate
+                        status: OK
+                        module: null
+                        factice: false
+                        children: []
+                        props: {}
+                        content: ""
+                        options: null
+                        view: null
+                        done: true
+                        root: null
+                        assert: null
+                        props_: {}
+                        triples: []
+                    props: {}
+                    content: ""
+                    options: null
+                    view: null
+                    done: true
+                    root: null
+                    assert: null
+                    props_: {}
+                    triples: []
+                  - id: 913d7cea-7cad-11ee-843c-62d701a26ab6
+                    name: issuerAlternativeNames
+                    desc: null
+                    icon: mdi:cog
+                    status: INFO
+                    module: null
+                    factice: false
+                    children: []
+                    props: {}
+                    content: ""
+                    options: null
+                    view: null
+                    done: true
+                    root: null
+                    assert: null
+                    props_: {}
+                    triples: []
+                  - id: 913d812c-7cad-11ee-843c-62d701a26ab6
+                    name: "type : None"
+                    desc: null
+                    icon: mdi:cog
+                    status: INFO
+                    module: null
+                    factice: false
+                    children: []
+                    props: {}
+                    content: ""
+                    options: null
+                    view: null
+                    done: true
+                    root: null
+                    assert: null
+                    props_: {}
+                    triples: []
+                  - id: 913d84e2-7cad-11ee-843c-62d701a26ab6
+                    name: "notBefore : 2021-07-29 14:01:23"
+                    desc: null
+                    icon: mdi:clipboard-text-clock-outline
+                    status: INFO
+                    module: null
+                    factice: false
+                    children: []
+                    props: {}
+                    content: ""
+                    options: null
+                    view: null
+                    done: true
+                    root: null
+                    assert: null
+                    props_: {}
+                    triples: []
+                  - id: 913d897e-7cad-11ee-843c-62d701a26ab6
+                    name: "notAfter : 2024-07-29 14:01:23"
+                    desc: null
+                    icon: mdi:clipboard-text-clock-outline
+                    status: INFO
+                    module: null
+                    factice: false
+                    children: []
+                    props: {}
+                    content: ""
+                    options: null
+                    view: null
+                    done: true
+                    root: null
+                    assert: null
+                    props_: {}
+                    triples: []
+                  - id: 913d8e60-7cad-11ee-843c-62d701a26ab6
+                    name: "validOnSigningdate : CertificateValid"
+                    desc: null
+                    icon: mdi:calendar-check-outline
+                    status: INFO
+                    module: null
+                    factice: false
+                    children: []
+                    props: {}
+                    content: ""
+                    options: null
+                    view: null
+                    done: true
+                    root: null
+                    assert: null
+                    props_: {}
+                    triples: []
+                  - id: 913d9342-7cad-11ee-843c-62d701a26ab6
+                    name: "validNow : CertificateValid"
+                    desc: null
+                    icon: mdi:calendar-check-outline
+                    status: INFO
+                    module: null
+                    factice: false
+                    children: []
+                    props: {}
+                    content: ""
+                    options: null
+                    view: null
+                    done: true
+                    root: null
+                    assert: null
+                    props_: {}
+                    triples: []
+                  - id: 913d98c4-7cad-11ee-843c-62d701a26ab6
+                    name: publicKey
+                    desc: null
+                    icon: mdi:key-variant
+                    status: INFO
+                    module: null
+                    factice: false
+                    children: []
+                    props: {}
+                    content: MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAqdl/6cB2Zk60X7GjwEkVzpKPmfDpla748+SRORGJSXNx5/SbYiGmEAU9No7w1pRoMzwib5QdEB3MigqdRajJUFAuUOXEsbej9+rfT66wkiROk8v19rr+zGtd3/kUFxqxzKUjIQNpSREARqpE0yR/iiFuqIGvOx9L1GawEIWvo01oR4xsrQInsLq457Lar7qXr9N7+uXvchlyCR1RLy5tEWZdX2T0djFP9zoRsi7eGIbWgfdlc0l90RwmG1T1bER8M/KyZ4L8aocQmMNj8wj1UII74k/DG/493MiYkdF/i5gtR5suTfsvUkTsLZ7kc81ig+sYXiNugO5P4K0L1ZfiLmth708Wn6p7OsiPw5lmTa5f2V45edeFQ5i3L5VoWkEnI1WKMR+PLS/P2eFL+W6cIjA6aCVXVZkz7vuzC1T3t/eQMFdfLFQAQ2+915J3qUfjal294n0m09ErfTunqmYKcvViRWVTimRgo9Y4MS10GsyGw292RmgRdxsapXiMVZgfAgMBAAE=
+                    options: null
+                    view: pub-key
+                    done: true
+                    root: null
+                    assert: null
+                    props_: {}
+                    triples: []
+                  - id: 913d9e82-7cad-11ee-843c-62d701a26ab6
+                    name: "criticalExtensionOIDs : 2.5.29.15,2.5.29.19"
+                    desc: null
+                    icon: mdi:identifier
+                    status: INFO
+                    module: null
+                    factice: false
+                    children: []
+                    props: {}
+                    content: ""
+                    options: null
+                    view: null
+                    done: true
+                    root: null
+                    assert: null
+                    props_: {}
+                    triples: []
+                  - id: 913da3f0-7cad-11ee-843c-62d701a26ab6
+                    name: "nonCriticalExtensionOIDs : C,e,r,t,i,f,i,c,a,t,e,V,a,l,i,d"
+                    desc: null
+                    icon: mdi:identifier
+                    status: INFO
+                    module: null
+                    factice: false
+                    children: []
+                    props: {}
+                    content: ""
+                    options: null
+                    view: null
+                    done: true
+                    root: null
+                    assert: null
+                    props_: {}
+                    triples: []
+                  - id: 913da904-7cad-11ee-843c-62d701a26ab6
+                    name: "sigAlgName : SHA256withRSA"
+                    desc: null
+                    icon: mdi:signature-freehand
+                    status: INFO
+                    module: null
+                    factice: false
+                    children: []
+                    props: {}
+                    content: ""
+                    options: null
+                    view: null
+                    done: true
+                    root: null
+                    assert: null
+                    props_: {}
+                    triples: []
+                  - id: 913dad14-7cad-11ee-843c-62d701a26ab6
+                    name: "sigAlgOID : 1.2.840.113549.1.1.11"
+                    desc: null
+                    icon: mdi:signature-freehand
+                    status: INFO
+                    module: null
+                    factice: false
+                    children: []
+                    props: {}
+                    content: ""
+                    options: null
+                    view: null
+                    done: true
+                    root: null
+                    assert: null
+                    props_: {}
+                    triples: []
+                props: {}
+                content: ""
+                options: null
+                view: null
+                done: true
+                root: null
+                assert: null
+                props_: {}
+                triples: []
+              - id: 913db3fe-7cad-11ee-843c-62d701a26ab6
+                name: "Raison : None"
+                desc: null
+                icon: ""
+                status: INFO
+                module: null
+                factice: false
+                children: []
+                props: {}
+                content: ""
+                options: null
+                view: null
+                done: true
+                root: null
+                assert: null
+                props_: {}
+                triples: []
+              - id: 913db9da-7cad-11ee-843c-62d701a26ab6
+                name: "Valide : False"
+                desc: null
+                icon: mdi:beaker-check-outline
+                status: "False"
+                module: null
+                factice: false
+                children: []
+                props: {}
+                content: ""
+                options: null
+                view: null
+                done: true
+                root: null
+                assert: null
+                props_: {}
+                triples: []
+              - id: 913dbec6-7cad-11ee-843c-62d701a26ab6
+                name: Signé le 2023-05-17 06:32:01
+                desc: null
+                icon: mdi:clipboard-text-clock-outline
+                status: INFO
+                module: null
+                factice: false
+                children: []
+                props: {}
+                content: ""
+                options: null
+                view: null
+                done: true
+                root: null
+                assert: null
+                props_: {}
+                triples: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+        props: {}
+        content: ""
+        options: null
+        view: null
+        done: true
+        root: null
+        assert: null
+        props_: {}
+        triples: []
+      - id: 913dee1e-7cad-11ee-843c-62d701a26ab6
+        name: 0 signataire
+        desc: null
+        icon: mdi:account-multiple
+        status: WARNING
+        module: null
+        factice: false
+        children:
+          - id: 913df242-7cad-11ee-843c-62d701a26ab6
+            name: 1 signature(s) reste(nt) inconnue(s)
+            desc: null
+            icon: mdi:account-multiple
+            status: WARNING
+            module: null
+            factice: true
+            children:
+              - id: 913df53a-7cad-11ee-843c-62d701a26ab6
+                name: Non issue de ChamberSign
+                desc: null
+                icon: mdi:account
+                status: WARNING
+                module: null
+                factice: false
+                children: []
+                props: {}
+                content: >-
+                  <ul>
+                                              <li>Site officiel</li>
+                                              <li>Politique de sécurité</li>
+                                              <li>Politique de confidentialité</li>
+                                              <li>Conditions générales</li>
+                                              <li>Page paxpar ChamberSign</li>
+                                          </ul>
+                options: null
+                view: null
+                done: true
+                root: null
+                assert: null
+                props_: {}
+                triples: []
+              - id: 913df9b8-7cad-11ee-843c-62d701a26ab6
+                name: Non issue de Chave Móvel Digital 🇵🇹
+                desc: null
+                icon: mdi:account
+                status: WARNING
+                module: null
+                factice: false
+                children: []
+                props: {}
+                content: >-
+                  <ul>
+                                              <li>Site officiel</li>
+                                              <li>Politique de sécurité</li>
+                                              <li>Politique de confidentialité</li>
+                                              <li>Conditions générales</li>
+                                              <li>Page paxpar Chave Móvel Digital 🇵🇹</li>
+                                          </ul>
+                options: null
+                view: null
+                done: true
+                root: null
+                assert: null
+                props_: {}
+                triples: []
+              - id: 913dfda0-7cad-11ee-843c-62d701a26ab6
+                name: Non issue de Docage
+                desc: null
+                icon: mdi:account
+                status: WARNING
+                module: null
+                factice: false
+                children: []
+                props: {}
+                content: >-
+                  <ul>
+                                              <li>Site officiel</li>
+                                              <li>Politique de sécurité</li>
+                                              <li>Politique de confidentialité</li>
+                                              <li>Conditions générales</li>
+                                              <li>Page paxpar Docage</li>
+                                          </ul>
+                options: null
+                view: null
+                done: true
+                root: null
+                assert: null
+                props_: {}
+                triples: []
+              - id: 913e0138-7cad-11ee-843c-62d701a26ab6
+                name: Non issue de Docaposte
+                desc: null
+                icon: mdi:account
+                status: WARNING
+                module: null
+                factice: false
+                children: []
+                props: {}
+                content: >-
+                  <ul>
+                                              <li>Site officiel</li>
+                                              <li>Politique de sécurité</li>
+                                              <li>Politique de confidentialité</li>
+                                              <li>Conditions générales</li>
+                                              <li>Page paxpar Docaposte</li>
+                                          </ul>
+                options: null
+                view: null
+                done: true
+                root: null
+                assert: null
+                props_: {}
+                triples: []
+              - id: 913e0476-7cad-11ee-843c-62d701a26ab6
+                name: Non issue de Hello Sign
+                desc: null
+                icon: mdi:account
+                status: WARNING
+                module: null
+                factice: false
+                children: []
+                props: {}
+                content: >-
+                  <ul>
+                                              <li>Site officiel</li>
+                                              <li>Politique de sécurité</li>
+                                              <li>Politique de confidentialité</li>
+                                              <li>Conditions générales</li>
+                                              <li>Page paxpar Hello Sign</li>
+                                          </ul>
+                options: null
+                view: null
+                done: true
+                root: null
+                assert: null
+                props_: {}
+                triples: []
+              - id: 913e07dc-7cad-11ee-843c-62d701a26ab6
+                name: Non issue de JeSigneExpert
+                desc: null
+                icon: mdi:account
+                status: WARNING
+                module: null
+                factice: false
+                children: []
+                props: {}
+                content: >-
+                  <ul>
+                                              <li>Site officiel</li>
+                                              <li>Politique de sécurité</li>
+                                              <li>Politique de confidentialité</li>
+                                              <li>Conditions générales</li>
+                                              <li>Page paxpar JeSigneExpert</li>
+                                          </ul>
+                options: null
+                view: null
+                done: true
+                root: null
+                assert: null
+                props_: {}
+                triples: []
+              - id: 913e0c78-7cad-11ee-843c-62d701a26ab6
+                name: Non issue de Lex Parsona avancée
+                desc: null
+                icon: mdi:account
+                status: WARNING
+                module: null
+                factice: false
+                children: []
+                props: {}
+                content: >-
+                  <ul>
+                                              <li>Site officiel</li>
+                                              <li>Politique de sécurité</li>
+                                              <li>Politique de confidentialité</li>
+                                              <li>Conditions générales</li>
+                                              <li>Page paxpar Lex Parsona avancée</li>
+                                          </ul>
+                options: null
+                view: null
+                done: true
+                root: null
+                assert: null
+                props_: {}
+                triples: []
+              - id: 913e109c-7cad-11ee-843c-62d701a26ab6
+                name: Non issue de Lex Parsona Simple
+                desc: null
+                icon: mdi:account
+                status: WARNING
+                module: null
+                factice: false
+                children: []
+                props: {}
+                content: >-
+                  <ul>
+                                              <li>Site officiel</li>
+                                              <li>Politique de sécurité</li>
+                                              <li>Politique de confidentialité</li>
+                                              <li>Conditions générales</li>
+                                              <li>Page paxpar Lex Parsona Simple</li>
+                                          </ul>
+                options: null
+                view: null
+                done: true
+                root: null
+                assert: null
+                props_: {}
+                triples: []
+              - id: 913e14b6-7cad-11ee-843c-62d701a26ab6
+                name: Non issue de Panda Doc
+                desc: null
+                icon: mdi:account
+                status: WARNING
+                module: null
+                factice: false
+                children: []
+                props: {}
+                content: >-
+                  <ul>
+                                              <li>Site officiel</li>
+                                              <li>Politique de sécurité</li>
+                                              <li>Politique de confidentialité</li>
+                                              <li>Conditions générales</li>
+                                              <li>Page paxpar Panda Doc</li>
+                                          </ul>
+                options: null
+                view: null
+                done: true
+                root: null
+                assert: null
+                props_: {}
+                triples: []
+              - id: 913e17fe-7cad-11ee-843c-62d701a26ab6
+                name: Non issue de UniverSign
+                desc: null
+                icon: mdi:account
+                status: WARNING
+                module: null
+                factice: false
+                children: []
+                props: {}
+                content: >-
+                  <ul>
+                                              <li>Site officiel</li>
+                                              <li>Politique de sécurité</li>
+                                              <li>Politique de confidentialité</li>
+                                              <li>Conditions générales</li>
+                                              <li>Page paxpar UniverSign</li>
+                                          </ul>
+                options: null
+                view: null
+                done: true
+                root: null
+                assert: null
+                props_: {}
+                triples: []
+              - id: 913e1b6e-7cad-11ee-843c-62d701a26ab6
+                name: Non issue de YouSign
+                desc: null
+                icon: mdi:account
+                status: WARNING
+                module: null
+                factice: false
+                children: []
+                props: {}
+                content: >-
+                  <ul>
+                                              <li>Site officiel</li>
+                                              <li>Politique de sécurité</li>
+                                              <li>Politique de confidentialité</li>
+                                              <li>Conditions générales</li>
+                                              <li>Page paxpar YouSign</li>
+                                          </ul>
+                options: null
+                view: null
+                done: true
+                root: null
+                assert: null
+                props_: {}
+                triples: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+        props: {}
+        content: ""
+        options: null
+        view: null
+        done: true
+        root: null
+        assert: null
+        props_: {}
+        triples: []
+      - id: 913e34be-7cad-11ee-843c-62d701a26ab6
+        name: 1 Annotation
+        desc: null
+        icon: mdi-bulletin-board
+        status: WARNING
+        module: null
+        factice: false
+        children:
+          - id: 913e38c4-7cad-11ee-843c-62d701a26ab6
+            name: Annotation 1/1
+            desc: null
+            icon: mdi-bulletin-board
+            status: WARNING
+            module: null
+            factice: false
+            children:
+              - id: 913e3be4-7cad-11ee-843c-62d701a26ab6
+                name: Annotation non couverte par une signature
+                desc: null
+                icon: mdi-bulletin-board
+                status: WARNING
+                module: null
+                factice: false
+                children: []
+                props: {}
+                content: ""
+                options: null
+                view: null
+                done: true
+                root: null
+                assert: null
+                props_: {}
+                triples: []
+              - id: 913e4134-7cad-11ee-843c-62d701a26ab6
+                name: Annotation de type Link
+                desc: null
+                icon: mdi-bulletin-board
+                status: INFO
+                module: null
+                factice: false
+                children: []
+                props: {}
+                content: ""
+                options: null
+                view: null
+                done: true
+                root: null
+                assert: null
+                props_: {}
+                triples: []
+              - id: 913e459e-7cad-11ee-843c-62d701a26ab6
+                name: Contenu None
+                desc: null
+                icon: mdi-bulletin-board
+                status: INFO
+                module: null
+                factice: false
+                children: []
+                props: {}
+                content: ""
+                options: null
+                view: null
+                done: true
+                root: null
+                assert: null
+                props_: {}
+                triples: []
+              - id: 913e49b8-7cad-11ee-843c-62d701a26ab6
+                name: null
+                desc: null
+                icon: mdi-bulletin-board
+                status: INFO
+                module: null
+                factice: false
+                children: []
+                props: {}
+                content: <a
+                  target="_blank"href="https://www.edf.fr/origine-de-l-electricite-fournie-par-edf">https://www.edf.fr/origine-de-l-electricite-fournie-par-edf</a>
+                options: null
+                view: null
+                done: true
+                root: null
+                assert: null
+                props_: {}
+                triples: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+        props: {}
+        content: ""
+        options: null
+        view: null
+        done: true
+        root: null
+        assert: null
+        props_: {}
+        triples: []
+    props:
+      info:
+        pdfName: edf_20230524.pdf
+        schemaDoc: ""
+        author: "Registered to: EDF     "
+        creator: OpenText Exstream Version 16.4.0 64-bit
+        keywords: None
+        createDate: java.util.GregorianCalendar[time=1684304172000,areFieldsSet=true,areAllFieldsSet=true,lenient=false,zone=java.util.SimpleTimeZone[id=GMT,offset=0,dstSavings=3600000,useDaylight=false,startYear=0,startMode=0,startMonth=0,startDay=0,startDayOfWeek=0,startTime=0,startTimeMode=0,endMode=0,endMonth=0,endDay=0,endDayOfWeek=0,endTime=0,endTimeMode=0],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2023,MONTH=4,WEEK_OF_YEAR=20,WEEK_OF_MONTH=3,DAY_OF_MONTH=17,DAY_OF_YEAR=137,DAY_OF_WEEK=4,DAY_OF_WEEK_IN_MONTH=3,AM_PM=0,HOUR=6,HOUR_OF_DAY=6,MINUTE=16,SECOND=12,MILLISECOND=0,ZONE_OFFSET=0,DST_OFFSET=0]
+        modifDate: None
+        subject: None
+        title: FACTURE_FELIX_NOUVEAU_FACO
+        trapped: None
+        producer: None
+        signatures:
+          - name: None
+            valid: false
+            visible: null
+            coverWholeDocument: null
+            revision: null
+            revisionTotal: null
+            integrityCheck: null
+            digestAlgorithm: null
+            encryptionAlgorithm: null
+            byteRange:
+              - 0
+              - 164402
+              - 183348
+              - 9118
+            signedDate: 2023-05-17 06:32:01
+            certificates:
+              - issuer:
+                  C: LU
+                  O: LuxTrust S.A.
+                  CN: LuxTrust Global Qualified CA 3
+                subject:
+                  O: ELECTRICITE DE FRANCE
+                  2.5.4.97: "\x13\x11VAT-FR03552081317"
+                  C: FR
+                  CN: ELECTRICITE DE FRANCE
+                issuerAlternativeNames: []
+                type: null
+                notBefore: 2021-07-29T14:01:23
+                notAfter: 2024-07-29T14:01:23
+                validOnSigningdate: CertificateValid
+                validNow: CertificateValid
+                publicKey:
+                  modulus: ""
+                  publicExponent: ""
+                  encoded: MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAqdl/6cB2Zk60X7GjwEkVzpKPmfDpla748+SRORGJSXNx5/SbYiGmEAU9No7w1pRoMzwib5QdEB3MigqdRajJUFAuUOXEsbej9+rfT66wkiROk8v19rr+zGtd3/kUFxqxzKUjIQNpSREARqpE0yR/iiFuqIGvOx9L1GawEIWvo01oR4xsrQInsLq457Lar7qXr9N7+uXvchlyCR1RLy5tEWZdX2T0djFP9zoRsi7eGIbWgfdlc0l90RwmG1T1bER8M/KyZ4L8aocQmMNj8wj1UII74k/DG/493MiYkdF/i5gtR5suTfsvUkTsLZ7kc81ig+sYXiNugO5P4K0L1ZfiLmth708Wn6p7OsiPw5lmTa5f2V45edeFQ5i3L5VoWkEnI1WKMR+PLS/P2eFL+W6cIjA6aCVXVZkz7vuzC1T3t/eQMFdfLFQAQ2+915J3qUfjal294n0m09ErfTunqmYKcvViRWVTimRgo9Y4MS10GsyGw292RmgRdxsapXiMVZgfAgMBAAE=
+                  format: X.509
+                  algorithm: RSA
+                  param: null
+                criticalExtensionOIDs:
+                  - 2.5.29.15
+                  - 2.5.29.19
+                nonCriticalExtensionOIDs:
+                  - 1.3.6.1.5.5.7.1.1
+                  - 1.3.6.1.5.5.7.1.3
+                  - 2.5.29.14
+                  - 2.5.29.31
+                  - 2.5.29.32
+                  - 2.5.29.35
+                sigAlgName: SHA256withRSA
+                sigAlgOID: 1.2.840.113549.1.1.11
+            verifyPKCS7: null
+            reason: None
+        annotations:
+          - bytebegin: 164125
+            xref: 385
+            subType: Widget
+            contents: None
+            link: null
+          - bytebegin: 26481
+            xref: 359
+            subType: Link
+            contents: None
+            link: https://www.edf.fr/origine-de-l-electricite-fournie-par-edf
+        attachments: []
+        pages:
+          - bytebegin: 183407
+            number: 1
+            xref: 19
+          - bytebegin: 7382
+            number: 2
+            xref: 79
+          - bytebegin: 13431
+            number: 3
+            xref: 88
+          - bytebegin: 20369
+            number: 4
+            xref: 269
+          - bytebegin: 26363
+            number: 5
+            xref: 357
+          - bytebegin: 26815
+            number: 6
+            xref: 364
+        xmp:
+          /Creator: OpenText Exstream Version 16.4.0 64-bit
+          /CreationDate: D:20230517061612Z
+          /Author: "Registered to: EDF     "
+          /Title: FACTURE_FELIX_NOUVEAU_FACO
+    content: ""
+    options: null
+    view: null
+    done: true
+    root: null
+    assert: null
+    props_: {}
+    triples: []
+  - id: guess
+    name: Liste de contrôle sélectionnée None
+    desc: ""
+    icon: mdi-help
+    status: WARNING
+    module: ref.frozen._sys.guess
+    factice: false
+    children:
+      - id: 914103ec-7cad-11ee-843c-62d701a26ab6
+        name: Recherche parmi les 99 checklists disponibles
+        desc: null
+        icon: mdi-eye
+        status: WARNING
+        module: null
+        factice: false
+        children:
+          - id: 914110b2-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.bank.rib.checklists, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 91411c1a-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.diagbat.checklists.dossier_technique_final_ok, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 9141228c-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.diagbat.checklists.checklist_diagbat, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 914128ae-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.diagbat.checklists.checklist_final, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 91412dea-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.diagbat.checklists.dossier_technique_final_ko, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 914133da-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.checklists.facture_default, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 91413b00-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.checklists.total_facture_CoN, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 914140dc-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.checklists.massur, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 91414514-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.checklists.total_facture_fml, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 91414938-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.checklists.magroupa, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 91414d52-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.checklists.checksign, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 91415162-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.checklists.facture_edf, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 91415572-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.checklists.eligbilite_vaccin, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 91415a86-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.checklists.reinsurer, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 91415f68-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.checklists.archi-troyes-d, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 91416396-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.checklists.amdm_injury, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 914167c4-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.checklists.miguel_fatura, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 91416d14-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.checklists.test_fml, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 91417232-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.checklists.diagbat_ordre_mission, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 914177dc-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.checklists.default, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 91417c8c-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.checklists.gcidi, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 91418272-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.checklists._pre, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 914187c2-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.checklists.paxpar_pv, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 91418cea-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.checklists.diagbat, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 91419302-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.checklists.diagbat_radio_prot, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 91419820-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.checklists.cdchabitat_test, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 91419d48-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.checklists.scen_diagbat, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 9141a284-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.checklists.ordo, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 9141a7ac-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.checklists.total_facture_ClP, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 9141ad2e-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.checklists.vaccination, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 9141b29c-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.checklists.reamat, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 9141b72e-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.checklists.maxtrade, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 9141bc38-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.checklists.facture_edp, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 9141c002-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.checklists.diagbat_resume_conclusions, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 9141c3d6-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.checklists.edp_comercial, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 9141c714-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.checklists.dass, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 9141c9e4-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.checklists.facture_free, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 9141cd22-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.checklists.diagbat_diagissimmo, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 9141d088-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.checklists.facture_fiverr, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 9141d434-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.checklists.cstb_cert, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 9141d772-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.checklists.aon_injury, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 9141dc54-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.checklists.miguel_fatura_pt, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 9141e046-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.checklists.diagbat_attest_ass, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 9141e38e-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.checklists.attestation_manpower, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 9141e6cc-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.checklists.invoice_factor, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 9141eaf0-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.checklists._post, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 9141f0cc-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.checklists.reassurance_test, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 9141f518-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.checklists.diagbat_certif_comp, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 9141f900-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.checklists.ducovre, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 9141fd7e-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.checklists.reassurance_aon, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 914200f8-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.checklists._bootstrap, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 9142042c-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.checklists.diploma, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 914207c4-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.chambersign.sslqual.checklists.audit_ssl, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 91420c6a-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.marketplace.airbnb.checklists, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 91420ff8-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.factur_x.dfcg.dfcg, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 91421516-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.factur_x.tax.checklists.cockpit, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 914219b2-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.pos_pnl.checklists.simple, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 91421e30-7cad-11ee-843c-62d701a26ab6
+            name: Checklist
+              common._a_classer.paxpax_docs_old.pdf.demo.test_checklist.ludo.example,
+              score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 9142222c-7cad-11ee-843c-62d701a26ab6
+            name: Checklist
+              common._a_classer.paxpax_docs_old.pdf.demo.test_checklist.maxime.example,
+              score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 914225d8-7cad-11ee-843c-62d701a26ab6
+            name: Checklist
+              common._a_classer.paxpax_docs_old.pdf.demo.test_checklist.eric.example,
+              score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 9142297a-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.tracabeton.checklists.checklist_bim, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 91422d44-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.tracabeton.checklists.checklist_audit, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 9142314a-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.tracabeton.checklists.checklist_tracabeton, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 91423532-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.textile.pass_vetement.checklists.sach_interface, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 91423906-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.textile.pass_vetement.checklists.sach_production, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 91423dac-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.textile.pass_vetement.checklists.sach_qualite, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 91424162-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.textile.pass_vetement.checklists.sach_atelier, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 91424630-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.textile.pass_vetement.checklists.sach_achat, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 91424c0c-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.custom.litext.checklists.litext_dr_ko, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 91425198-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.custom.litext.checklists.litext_dr, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 91425738-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.custom.litext.checklists.litext_paf, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 91425d32-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.custom.secure.mes_ordre_inter.checklists.demo2, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 9142620a-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.custom.secure.mes_ordre_inter.checklists.input, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 91426778-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.custom.secure.mes_valise_secure.checklists.base_n2, score
+              0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 91426d40-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.custom.secure.mes_valise_secure.checklists.demo2, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 914271d2-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.custom.secure.mes_valise_secure.checklists.base, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 91427556-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.custom.secure.mes_valise_secure.checklists.base_n1, score
+              0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 91427d30-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.custom.note_frais.checklists.base, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 914284c4-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.custom.tholga.checklists.paf_bcfabl_key, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 91428b0e-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.custom.tholga.checklists.paf_bcfabl, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 914291a8-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.custom.tholga.checklists.simple, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 91429950-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.custom.tholga.checklists.paf_bcfabl_nadine, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 91429e00-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.custom.vodanes.checklists.dr_ko, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 9142a3a0-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.custom.vodanes.checklists.dr, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 9142a882-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.tutorial.tour.coup-de-pouce-10, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 91430a0c-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.bail.location_immo.coup-de-pouce-10, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 9143107e-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.mise_en_demeure.tableau_creances.checklists.relances,
+              score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 9143163c-7cad-11ee-843c-62d701a26ab6
+            name: Checklist
+              common.mise_en_demeure.tableau_creances.checklists.mise_en_demeure,
+              score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 91431b6e-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.geolsemantic.checklists.simple, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 91431fc4-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.geolsemantic.checklists.multiple, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 9143238e-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.order_x.orderx, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 914326e0-7cad-11ee-843c-62d701a26ab6
+            name: Checklist
+              common.attestation.securite_travail.checklists.alcove_new_attestation_v2,
+              score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 91432a64-7cad-11ee-843c-62d701a26ab6
+            name: Checklist
+              common.attestation.securite_travail.checklists.alcove_new_carnet,
+              score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 91432e2e-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.attestation.securite_travail.checklists.attestation,
+              score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 91433130-7cad-11ee-843c-62d701a26ab6
+            name: Checklist
+              common.attestation.securite_travail.checklists.alcove_new_attestation,
+              score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 914334b4-7cad-11ee-843c-62d701a26ab6
+            name: Checklist
+              common.attestation.securite_travail.checklists.alcove_new_carnet_V2,
+              score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 914338d8-7cad-11ee-843c-62d701a26ab6
+            name: Checklist
+              common.attestation.securite_travail.checklists.alcove_new_intervention,
+              score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 91433c0c-7cad-11ee-843c-62d701a26ab6
+            name: Checklist
+              common.attestation.securite_travail.checklists.attestation_recyclage,
+              score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 91433fe0-7cad-11ee-843c-62d701a26ab6
+            name: Checklist common.cdchabitat.checklists.cdchabitat_test, score 0
+            desc: null
+            icon: mdi-eye
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+        props: {}
+        content: ""
+        options: null
+        view: null
+        done: true
+        root: null
+        assert: null
+        props_: {}
+        triples: []
+      - id: 91435228-7cad-11ee-843c-62d701a26ab6
+        name: Aucune checklist retenue
+        desc: null
+        icon: mdi-eye
+        status: WARNING
+        module: null
+        factice: false
+        children: []
+        props: {}
+        content: ""
+        options: null
+        view: null
+        done: true
+        root: null
+        assert: null
+        props_: {}
+        triples: []
+    props:
+      checklist_id: null
+    content: ""
+    options: null
+    view: null
+    done: true
+    root: null
+    assert: null
+    props_: {}
+    triples: []
+  - id: footer
+    name: Avertissements
+    desc: ""
+    icon: mdi-help
+    status: WARNING
+    module: null
+    factice: false
+    children:
+      - id: 9124ae7c-7cad-11ee-843c-62d701a26ab6
+        name: Checklist non qualifiée
+        desc: null
+        icon: mdi:certificate-outline
+        status: WARNING
+        module: null
+        factice: false
+        children:
+          - id: 9124b688-7cad-11ee-843c-62d701a26ab6
+            name: Attention la présente checklist n'a pas été signée.
+            desc: null
+            icon: mdi:pencil-outline
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 9124baa2-7cad-11ee-843c-62d701a26ab6
+            name: Elle n'est pas considérée comme sûre.
+            desc: null
+            icon: mdi:pencil-outline
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 9124bec6-7cad-11ee-843c-62d701a26ab6
+            name: Les résultats affichés n'ont aucune valeur juridique.
+            desc: null
+            icon: mdi:pencil-outline
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+        props: {}
+        content: ""
+        options: null
+        view: null
+        done: true
+        root: null
+        assert: null
+        props_: {}
+        triples: []
+      - id: 9124c358-7cad-11ee-843c-62d701a26ab6
+        name: Précautions à prendre
+        desc: null
+        icon: mdi:tooltip-account
+        status: WARNING
+        module: null
+        factice: false
+        children:
+          - id: 9124c5a6-7cad-11ee-843c-62d701a26ab6
+            name: Attention, le visuel du PDF différe suivant l'outil de visualisation
+              utilisé.
+            desc: null
+            icon: mdi:tooltip-edit-outline
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 9124c9b6-7cad-11ee-843c-62d701a26ab6
+            name: Attention, si vous visualisez le PDF sur un smartphone, le visuel peut
+              être sensiblement différent.
+            desc: null
+            icon: mdi:tooltip-edit-outline
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+          - id: 9124cd08-7cad-11ee-843c-62d701a26ab6
+            name: Ne jamais faire confiance dans le visuel d'une signature électronique.
+            desc: null
+            icon: mdi:tooltip-edit-outline
+            status: WARNING
+            module: null
+            factice: false
+            children: []
+            props: {}
+            content: ""
+            options: null
+            view: null
+            done: true
+            root: null
+            assert: null
+            props_: {}
+            triples: []
+        props: {}
+        content: ""
+        options: null
+        view: null
+        done: true
+        root: null
+        assert: null
+        props_: {}
+        triples: []
+    props: {}
+    content: ""
+    options: null
+    view: null
+    done: true
+    root: null
+    assert: null
+    props_: {}
+    triples: []
+  - id: conf_juri
+    name: Conformité Métier
+    icon: mdi-professional-hexagon
+    status: KO
+    children:
+    - id: conf_sign
+      name: Conformité signature
+      icon: mdi-pen
+      status: KO
+      children:
+      - id: sign
+        name: "La clé publique ELECTRICITE DE FRANCE n'a pas été trouvée"
+        icon: mdi-pen 
+        status: KO      
+    
+
+

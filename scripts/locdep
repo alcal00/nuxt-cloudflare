@@ -1,0 +1,67 @@
+#!/usr/bin/env python3
+'''
+TODO: WIP
+
+switch to local dep dev mode
+where `package.json` and `nuxt.config.ts` files are updated
+to point to local relative path.
+
+usage:
+
+# switch to local dep
+script/locdep add @arundo-tech/paxpar-widgets
+
+# switch to local dep
+script/locdep on
+
+# switch to remote dep 
+script/locdep off
+
+# get current dep mode
+script/locdep
+local
+
+Set env var in .env :
+
+`PAXPAR_WIDGETS_PATH="../paxpar-widgets"`
+
+Change in `packages.json`, replace
+```
+"@arundo-tech/paxpar-widgets": "^2.7.77",
+```
+by
+```
+"@arundo-tech/paxpar-widgets": "../paxpar-widgets",
+```
+
+Current settings (package name and version)are stored in `locdep.store`
+'''
+import sys
+
+package = "@arundo-tech/paxpar-widgets"
+settings_filename = 'locdep.store'
+
+
+def get_command():
+    cmd, kargs = 'help', {}
+    print(sys.argv)
+    
+
+    return (cmd, kargs)
+def set_local_mode():
+    ...
+
+def main():
+    (cmd, kargs) = get_command()
+    if cmd == 'on':
+        set_local_mode()
+    elif cmd == 'off':
+        set_remote_mode()
+    elif cmd == 'show':
+        show_mode()
+    elif cmd == 'add':
+        set_localadd_package(**kargs)
+    else:
+        show_help()
+
+main()

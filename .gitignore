@@ -9,6 +9,12 @@ dist
 # Node dependencies
 node_modules
 
+
+# e2e playwright tests
+/test-results/
+/playwright-report/
+/playwright/.cache/
+
 # Logs
 logs
 *.log
@@ -22,3 +28,12 @@ logs
 .env
 .env.*
 !.env.example
+
+# VSC
+.history
+
+# public file to ignore
+# because they are provided at build/deploy time
+/public.tbz
+/public/VERSION
+/public/deploy_conf.json

@@ -1,23 +1,30 @@
-# Nuxt 3 Minimal Starter
+![nuxt-ui-pro-docs-template](https://github.com/nuxt-ui-pro/docs/assets/904724/67fc15a7-92f6-4566-95b9-fe099012473c)
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+
+# pp-front
+
+[![paxpar](https://img.shields.io/badge/Made%20with-paxpar-1D9FD7?logo=python&labelColor=000000)](https://paxpar.tech)
+
+[![Nuxt Studio](https://img.shields.io/badge/Open%20in%20Nuxt%20Studio-18181B?&logo=nuxt.js&logoColor=3BB5EC)](https://nuxt.studio/themes/docs)
+
+- main branch deployed on [gitlab pages](https://pp-front-arundo-tech-cb9705d0248f802b36e552c354b81a754c162e60a5.gitlab.io/)
+- [Live demo](https://nuxt-ui-pro-template-docs.vercel.app/)
+- [Play on Stackblitz](https://stackblitz.com/github/nuxt-ui-pro/docs)
+- [Documentation](https://ui.nuxt.com/pro/guide)
+- [Clone on Nuxt Studio](https://nuxt.studio/themes/docs)
+
+## Quick Start
+
+```bash [Terminal]
+npx nuxi init -t github:nuxt-ui-pro/docs
+```
 
 ## Setup
 
 Make sure to install the dependencies:
 
 ```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
+npx bun install
 ```
 
 ## Development Server
@@ -25,51 +32,28 @@ bun install
 Start the development server on `http://localhost:3000`:
 
 ```bash
-# npm
-npm run dev
+npx bun run dev
+```
 
-# pnpm
-pnpm run dev
 
-# yarn
-yarn dev
+## e2e tests
 
-# bun
-bun run dev
+```
+podman run -ti -v $PWD:/app mcr.microsoft.com/playwright:v1.39.0-jammy
+npx playwright test
 ```
 
 ## Production
 
-Build the application for production:
+See deploy projects.
 
-```bash
-# npm
-npm run build
+## Nuxt Studio dev
 
-# pnpm
-pnpm run build
 
-# yarn
-yarn build
+## Renovate integration
 
-# bun
-bun run build
-```
+Install [Renovate GitHub app](https://github.com/apps/renovate/installations/select_target) on your repository and you are good to go.
 
-Locally preview production build:
+## phe wip
 
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+https://tldraw.arundo.tech/r/07101e34-23d8-4d26-2166-24498c645b5a

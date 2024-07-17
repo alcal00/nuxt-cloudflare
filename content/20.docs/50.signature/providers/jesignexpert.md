@@ -1,0 +1,25 @@
+---
+model: verif_psc
+layout: psc
+lang: fr
+image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKWmAvjTo79QytZHQ6RU-qE8Ei0zkPWekCifo0uI4pslbvSzW9qHjufgIt1pLcuEorg8Y&usqp=CAU
+title: JeSignexpert
+description: 📖 Lire le scénario
+createdAt: 2023-08
+---
+
+## Détection JeSignexpert
+
+Test sur une seule signature
+
+Une « signature  individuelle» produit 2 signatures PAdES.
+
+## Clé publique
+### Certificat 1/3
+- O : Conseil Superieur de l'Ordre des Experts-Comptables
+- CN : Signature - Conseil Superieur de l'Ordre des Experts-Comptables - CA
+- MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAvyEi5u4gUc/O4PPnT9wdXr/x9XYPP1UrwbSL86tI+oSZvA6p4mkDJpuqI/MZ125MoaiVLN0Gp0GlN2Js8S0eqPnC7pFVRZwdqIRW4RMHoIKoKL5UId54fYXtNvQR7n4KSrZkWQoCwlPijBlg4Lm6kSCjmUo+AH/pvCS77E+o0dM3PStKoVKs2rhie2whTue6eGmwEizdlxkwNGhhvSYjvJjBzQONafSUcmMAz7yQ/DlqmivgYTSlUtevay6myMxbk0JZJ/HXpx1TH81bafTtSRY6fYkBmWOioz3/y7MjAzwHmtMgBEGsqdLb6MY3tJKGXTNuXDnCSYewfgyG0SaZwYWg0G3HUZaLHY7SkxRT3WIEOaFq+YGtXoHhPGVq4VVB6oMbgS6/aBJQFJx/xTrJq3cY5nU9gT8Qvn0MNm5uqWcOTIRG/Ir/eh3L2iIgCzKvX5ru2glLts2UX35sqmAeWNVtlLzfq3RItxcvYCUyGqGwp3ReKQsn9ezNhKfrb1nFZFUdWe/M6ltzFMf9YEfVl+zplUh5ONYkjnRZNZtIMVbQB1orthB8N+rPvcdHcVVSjm8nByo8NN+/FxL4OQh9qh3adiUnosk+PsFtOWKS2aZIPuOluQAXJel58b4C/fE30fhex1mTqTWKSMfJ2M6e+WG9nkIl4H8W7Oqqyhn5MV8CAwEAAQ==
+
+## La 2ème signature PAdES est Universign
+## Clé publique
+- MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAwvYlQl9z4CJFyAPCR4l9dgHvtfFJwKCChpmBV1drDPea04f4lbTUUbxEHD2QNDjKHSE5Qt4c6IRgNjK9eC7wUYGRhF86+xeg/57gg4vG3kmQ19xtICFJvFOTGYDQ7P1hw0PjQyVCn5vyDyTnqH03ys14fUdhcQMNtDHsWOd0GwjRUVDngciUBA+9PEOq1myEKe7005ntLZYvH1o1rJqDJVzveV4lvhIVHyhzdKw2TELI8I97vvQmfCyff73rg5XsDk/st5Uk59i5NiHrgP47AGGm7bw990GfEV1IMpAMeBmmtcrnPd7J96ACM8BS/hYGFl+K/4h0ZYcZg+oFDfkHuiWIWRRcGxgCi9Jdo4B553s/VMZSLNow0UkM9CNpTIF8LvGnDp58htPV89uFQqMHyzOFuZYc/nRnhVyOGHwI0SXrCbd+LVBw1WfWrEw8Hyhu2UG9aQTmD9oXk3D/m2jk5nwQKEUNiTTBklpXcbl2heZvxs7NW9FPfBhwozjoIKm/mgZSCjsl4+TVpnNArsBJ8qo3NnNmDUeV5p9kzJcPghi7yDivoaGKbjwb3EKoqQuYbnggQdnPBgtVJSgF921oURFyalh35rHkRVSD5dD1ErynL+2bepmaORvWsTY0F2COO85dKSXeGnCCbia8gBY7Ga+xgSHbQqw3UZbX3m1iPncCAwEAAQ==

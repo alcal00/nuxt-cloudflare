@@ -1,0 +1,45 @@
+#cloud-config
+#hostname: ${hostname}
+#fqdn: ${fqdn}
+#manage_etc_hosts: true
+
+
+users:
+  - name: ubuntu
+    sudo: 'ALL=(ALL) NOPASSWD:ALL'
+    groups: users, admin, sudo
+    #home: /home/ubuntu
+    shell: /bin/bash
+    lock_passwd: false
+    ssh_authorized_keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCezCKdsr/Pq0IEVIcQO9iQbXFXvxKjd5H6odZz4+BYNRMKAL7AJm4NAsW5AEmHWNN8BvUyG7MKIBvqLOKNUYdURedID10vvdJcY4LUDBSVOMpTedqQ9bbI0klB+vl3tNxKpVtgmiU5RnkA/HY0U0eDLhzBU1V0on2lAFy6p+wtoRimD7xBfVoWMpmyhE2IWyIdjILV3ZHSf8Itq42d7iafAn72ThrwNH2AT9eSGfD5jOgZn6aIpLwPS2R3g8iHHquYIRN6ncvkrZXKtgo3KRX0817vlMooETCbjUbST0bceJRWZZ+EUf+OmW5SKtiRWKvOIrRdV0Gl2wRjSqwXhj6LDxyAZqzD0Q9R7GaL4sOeSQQofXSQ1NC3bQGCxvMsixMxNYEJh62ZnMwEH4oKbV1nzeQMb7e2GFZ+F/BCuP6MJgq9orXiwRGB3duMcCQLHGbhStc/8BjX8qa0ePTKazzVjkEd2E3S0YjJpkXcrzfRhfubonao8HJwrfnHtkHiVnk= philippe@x1
+    ssh_import_id:
+      - gh:PhE
+
+package_update: true
+
+packages:
+  - apt-transport-https
+  - byobu
+  - ca-certificates
+  - curl
+  - git
+  - gnupg-agent
+  - neovim
+  - qemu-guest-agent
+  - software-properties-common
+
+runcmd:
+  - apt update -y
+  - apt dist-upgrade -y
+  - snap install microk8s --classic --channel=1.25/stable
+  # add user to micro8s group so sudo not required
+  - usermod -a -G microk8s ubuntu
+  - chown -f -R ubuntu ~/.kube
+  # wait to install microk8s addons
+  - microk8s status --wait-ready
+  - microk8s enable dns
+  - microk8s enable ingress
+  - microk8s status --wait-ready
+
+final_message: "paxpar cluster node is finally up, after $UPTIME seconds"

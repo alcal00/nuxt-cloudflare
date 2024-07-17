@@ -1,0 +1,147 @@
+---
+id: evt_1NLOS0K0npsJqs8MoA9nXokU
+object: event
+api_version: '2020-08-27'
+created: 1687343987
+livemode: false
+pending_webhooks: 2
+request:
+  id: req_d1LfHw6cbwFuHf
+  idempotency_key: d84dc76a-56b0-45d2-81fa-03bd8a7dd8b4
+type: customer.subscription.updated
+data:
+  object:
+    id: sub_1NLORwK0npsJqs8MC6cthQaf
+    object: subscription
+    application:
+    application_fee_percent:
+    automatic_tax:
+      enabled: true
+    billing_cycle_anchor: 1687343984
+    billing_thresholds:
+    cancel_at:
+    cancel_at_period_end: false
+    canceled_at:
+    cancellation_details:
+      comment:
+      feedback:
+      reason:
+    collection_method: charge_automatically
+    created: 1687343984
+    currency: eur
+    current_period_end: 1689935984
+    current_period_start: 1687343984
+    customer: cus_O7djIRyZZX2bNn
+    days_until_due:
+    default_payment_method: pm_1NLORvK0npsJqs8MjuW2MT8L
+    default_source:
+    default_tax_rates: []
+    description:
+    discount:
+    ended_at:
+    items:
+      object: list
+      data:
+      - id: si_O7djDL8Vuzz1ip
+        object: subscription_item
+        billing_thresholds:
+        created: 1687343985
+        metadata: {}
+        plan:
+          id: price_1LwpO6K0npsJqs8M9YlAWS4J
+          object: plan
+          active: true
+          aggregate_usage:
+          amount: 18800
+          amount_decimal: '18800'
+          billing_scheme: per_unit
+          created: 1666712998
+          currency: eur
+          interval: month
+          interval_count: 1
+          livemode: false
+          metadata: {}
+          nickname: EQUIPE PAXPAR
+          product: prod_MgBl9JeXMdQ77r
+          tiers_mode:
+          transform_usage:
+          trial_period_days:
+          usage_type: licensed
+        price:
+          id: price_1LwpO6K0npsJqs8M9YlAWS4J
+          object: price
+          active: true
+          billing_scheme: per_unit
+          created: 1666712998
+          currency: eur
+          custom_unit_amount:
+          livemode: false
+          lookup_key:
+          metadata: {}
+          nickname: EQUIPE PAXPAR
+          product: prod_MgBl9JeXMdQ77r
+          recurring:
+            aggregate_usage:
+            interval: month
+            interval_count: 1
+            trial_period_days:
+            usage_type: licensed
+          tax_behavior: exclusive
+          tiers_mode:
+          transform_quantity:
+          type: recurring
+          unit_amount: 18800
+          unit_amount_decimal: '18800'
+        quantity: 1
+        subscription: sub_1NLORwK0npsJqs8MC6cthQaf
+        tax_rates: []
+      has_more: false
+      total_count: 1
+      url: "/v1/subscription_items?subscription=sub_1NLORwK0npsJqs8MC6cthQaf"
+    latest_invoice: in_1NLORwK0npsJqs8MhJ5wpwlp
+    livemode: false
+    metadata: {}
+    next_pending_invoice_item_invoice:
+    on_behalf_of:
+    pause_collection:
+    payment_settings:
+      payment_method_options:
+      payment_method_types:
+      save_default_payment_method: 'off'
+    pending_invoice_item_interval:
+    pending_setup_intent:
+    pending_update:
+    plan:
+      id: price_1LwpO6K0npsJqs8M9YlAWS4J
+      object: plan
+      active: true
+      aggregate_usage:
+      amount: 18800
+      amount_decimal: '18800'
+      billing_scheme: per_unit
+      created: 1666712998
+      currency: eur
+      interval: month
+      interval_count: 1
+      livemode: false
+      metadata: {}
+      nickname: EQUIPE PAXPAR
+      product: prod_MgBl9JeXMdQ77r
+      tiers_mode:
+      transform_usage:
+      trial_period_days:
+      usage_type: licensed
+    quantity: 1
+    schedule:
+    start_date: 1687343984
+    status: active
+    test_clock:
+    transfer_data:
+    trial_end:
+    trial_settings:
+      end_behavior:
+        missing_payment_method: create_invoice
+    trial_start:
+  previous_attributes:
+    default_payment_method:
+    status: incomplete

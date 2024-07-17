@@ -1,0 +1,430 @@
+---
+title: Facture au format factur-X
+description: "Je suis un fournisseur, comment être sûr que mes factures seront acceptées par les plateformes de facturation ?"
+image:
+  src: https://media.paxpar.tech/20230517_Atelier-vtd_fe-ok-plateformes-facturation.jpeg
+authors:
+  - name: Valérie SUIGNARD
+    avatar:
+      src: /avatar/valerie.png
+      target: _blank
+    to: https://www.linkedin.com/in/valerie-suignard/
+  - name: Nadine MASSON
+    avatar:
+      src: /avatar/nadine.png
+      target: _blank
+    to: https://www.linkedin.com/company/76156489/admin/feed/posts/
+  - name: Guillaume PETIT
+    avatar:
+      src: /avatar/guillaumep.png
+      target: _blank
+    to: https://www.linkedin.com/in/guillaume-petit-014b0478/
+  - name: Francoise ENTZMANN
+    avatar:
+      src: /avatar/francoise.png
+      target: _blank
+    to: https://www.linkedin.com/in/fentzmann/
+date: 2023-05-17
+---
+
+
+# Atelier du 17/05/2023
+
+## Discours de Guillaume Petit
+
+::ppw-chat-conversation
+---
+conversation:
+- guillaumep: "Bonjour et bienvenue. Merci d’être là.
+Nous allons passer 30 minutes ensemble, je vais donc me présenter.
+Je m’appelle Guillaume, je suis le responsable commercial de Chambersign. 
+Je suis très heureux de vous présenter ce webinair animé conjointement par Paxpar et ChamberSign dans le cadre de ChamberSign le Lab. 
+Je serai accompagné de l’équipe PaxPar : Françoise, Valérie.  
+Avant de rentrer dans le vif du sujet, en quelques mots rapides :  qui est ChamberSign et pourquoi ChamberSign le lab ?
+ChamberSign est une autorité de certification, tiers de confiance créée il y plus de 20 ans. 
+Notre ambition est de promouvoir la sécurisation des échanges électroniques. 
+Pour ce faire nous accompagnons depuis toujours les organisations privées comme publiques dans la sécurisation de leur processus dématérialisé. 
+C’est pourquoi nous délivrons notamment des identités numériques par certificats électroniques qui permet l’authentification forte de la personne physique ou morale ou la signature électronique.
+C’est parce que, nous sommes conscients des nouveaux enjeux et défis liés à l’instauration d’un environnement numérique fiable, de confiance et sécurisé, que nous avons lancé il y a quelques mois notre laboratoire d’innovations. 
+ChamberSign le Lab regroupe différents groupes de travail constitués d’experts venus de différents horizons dans le domaine de la dématérialisation. 
+Notre ambition est d’apporter aux organisations des solutions innovantes qui répondent aux problématiques actuelles et futures.
+Dans ce cadre, nous avons notamment travailler avec l’entreprise Paxpar. 
+De ces travaux et échanges, en ressort la solution VérifTonDoc. 
+Je laisse la parole à Françoise qui va vous expliquer ce qu’est VerifTonDoc et rentrer dans les détails du thème abordé aujourd’hui."
+---
+::
+
+## Pitch - Scénario
+
+::ppw-chat-conversation
+---
+conversation:
+    - francoise: "Notre thème du jour porte sur la facture électronique et plus précisement, sur comment être sûr que nos factures seront acceptées par les plateformes de facturation, qui sont de plus en plus nombreuses...
+    En tant que fournisseur, les factures que vous générez doivent être acceptées par vos clients avant que le processus de paiement soit enclenché. Cela vous demande du temps et des ressources dans le cas d'un rejet de facture.
+    Voyons comment résoudre cette problématique de rejet potentiel de facture au travers de 3 cas d'usage."   
+---
+::
+
+## Acteurs
+::ppw-chat-conversation
+---
+conversation:
+    - guillaume: "Guillaume Petit : Responsable des ventes chez Total"
+    - valerie: "Valérie : Support client"
+---
+::
+
+![](https://media.paxpar.tech/Atelier_fx-conf-plateformes_acteurs2.png){ width=100% }
+
+****
+
+## Mise en scène 
+::ppw-chat-conversation
+---
+conversation:
+    - nadine: "Nadine interprète Guillaume"
+    - valerie: "Valérie explique les solutions"
+---
+::
+
+****
+
+::ppw-chat-conversation
+---
+conversation:
+    - guillaume: "Voilà ma problématique, je génére une multitude de factures chaque jour à différents clients et je dois respecter des critères bien spécifiques pour chacun. Pour le service public, je dois déposer les factures sur le portail ChorusPro. 
+    Pour Carrefour, j'envoie les factures et c'est le client qui les dépose sur son portail Coupa.
+    Pour Tholga, il faut que je constitue une PAF (Piste d'Audit Fiable) devant regrouper obligatoirement certains documents. Comment est-ce que je m'assure de la conformité de mes factures avec ces critères différents ?"
+---
+::
+
+****
+
+### Dépôt de la facture sur le portail ChorusPro
+
+![](https://media.paxpar.tech/Atelier_1-resp-ventes.png ){ width=100% }
+
+::ppw-chat-conversation
+---
+conversation:
+    - guillaume: "Premier exemple. Je facture la mairie de Tioville, ce qui implique que la facture doit être au format Factur-X pour être acceptée sur ChorusPro"
+---
+::
+
+::ppw-chat-conversation
+---
+conversation:
+    - guillaume: "Je génère ma facture."
+---
+::
+
+:ppw-pdf-link{href="/documents/ffx_mairie_186_11.pdf"}
+
+::ppw-chat-conversation
+---
+conversation:
+    - guillaume: "Je me rend sur le portail ChorusPro"
+---
+::
+
+![](/images/images_chorusPro/0001_plateforme_chorus.png){ width=100% }
+
+
+::ppw-chat-conversation
+---
+conversation:
+    - guillaume: "Je m'identifie."
+---
+::
+
+![](/images/images_chorusPro/0002_identification_chorus.png){ width=100% }
+
+::ppw-chat-conversation
+---
+conversation:
+    - guillaume: "Je choisis le domaine facturation"
+---
+::
+
+![](/images/images_chorusPro/0003_choix_domaines_chorus.png){ width=100% }
+
+::ppw-chat-conversation
+---
+conversation:
+    - guillaume: "Je choisis Factures émises"
+---
+::
+
+![](/images/images_chorusPro/0004_application_domaine_facturation_chorus.png){ width=90% }
+
+::ppw-chat-conversation
+---
+conversation:
+    - guillaume: "Je choisis Déposer facture"
+---
+::
+
+![](/images/images_chorusPro/0005_choix_deposerfacture.png){ width=90% }
+
+::ppw-chat-conversation
+---
+conversation:
+    - guillaume: "Je dépose la facture sur la plateforme"
+---
+::
+
+![](/images/images_chorusPro/0006_depot_facture.png){ width=80% }
+
+::ppw-chat-conversation
+---
+conversation:
+    - guillaume: "Je ne peux pas faire de drag and drop, je dois faire plusieurs clics pour déposer mon PDF"
+---
+::
+
+::ppw-chat-conversation
+---
+conversation:
+    - guillaume: "Et là après tous ces clics, ChorusPro me valide enfin ma facture."
+---
+::
+
+```
+TODO: remove when #3180 is fixed
+![](/images/images_chorusPro/0007_choruspro_ffx_mairie_186-011.png){ width=45% }
+```
+
+::ppw-chat-conversation
+---
+conversation:
+    - guillaume: "Je peux télécharger le PDF récapitulatif du traitement."
+---
+::
+
+:ppw-pdf-link{href="/documents/ffx_mairie_186_11_valide_dans_choruspro.pdf"}
+
+![](/images/images_chorusPro/0008_recap_traitement_chorus.png){ width=90% }
+
+::ppw-chat-conversation
+---
+conversation:
+    - guillaume: "J'ai déposé ma facture, ChorusPro l'a validée, je quitte le portail."
+---
+::
+
+### La solution VérifTonDoc
+
+![](https://media.paxpar.tech/Atelier_21_valerie-support.png ){ width=100% }
+
+::ppw-chat-conversation
+---
+conversation:
+    - valerie: "Guillaume, ChorusPro a validé ta facture, c'était ta problématique. Mais es-tu pour autant sûr qu'elle est correcte ? Alors je te propose une solution de vérification de conformité documentaire : il te suffit d'être abonné à la plateforme VérifTonDoc et tu pourras déposer tes PDFs dans la dropzone pour que la cheklist correspondante se déclanche automatiquement et réponde aux critères de tes différents clients. Cela s'appelle de la vérification métier."
+---
+::
+
+::ppw-chat-conversation
+---
+conversation:
+    - valerie: "Je t'explique. Tu te connectes sur la plateforme VérifTonDoc"
+---
+::
+
+![](/images/images_verifTonDoc/connexion_veriftondoc.png){ width=40% }
+
+::ppw-chat-conversation
+---
+conversation:
+    - valerie: "Tu cliques sur JE VERIFIE MON DOC"
+---
+::
+
+![](/images/images_verifTonDoc/2023_uatchambersign_paxpar.png){ width=100% }
+
+::ppw-chat-conversation
+---
+conversation:
+    - valerie: "Tu cliques sur Accès rapide à vérification"
+---
+::
+
+****
+
+### Solution 1-ChorusPro
+::ppw-showcase-check
+---
+conversation:
+  - valerie: "Tu arrives sur la dropzone d'analyse"
+  - valerie: "Et là,reprenons ton pdf validé par ChorusPro."
+  - valerie: "Je le dépose simplement en faisant un drag and drop"
+pdfs:
+  - url: "/documents/ffx_mairie_186_11.pdf"
+    check_result: "/blog/2023/05/_cl_ffx_mairie186_1"
+    name: "Facture Mairie N° 186 1"
+    conversation:
+        - valerie: "Je le dépose simplement en faisant un drag and drop"
+        - valerie: "La checklist t'indique immédiatement les points non conformes en mettant un statut rouge. Dans ce cas là, VérifTonDoc indique que le pdf n'est pas signé. La plateforme utilise les métadonnées Factur-X, vérifie les différents calculs et t'indique ici qu'il y a une erreur dans le calcul de TVA."
+        - valerie: "ChorusPro ne fait pas les vérifications métiers. La plateforme a validé ta facture mais elle n'est pas correcte."
+  - url: "/documents/ffx_mairie_186_02_sign.pdf"
+    check_result: "/blog/2023/05/_cl_ffx_mairie186_2"
+    name: "Facture Mairie N°186 2"
+    conversation:
+        - valerie: "Voici l'exemple d'une autre facture que je dépose sur vérifTonDoc"
+        - valerie: "Tous les voyants sont au vert pour le profil basic et la checklist indique bien que la facture est signée, dans ce cas là, tu es assuré que ta facture est conforme à tous les critères que tu as déterminés pour ce client. Par contre si tu voulais le profil étendu, il manque des mentions et la checklist te les récapitule."
+---
+::
+
+****
+
+### Dépôt de la facture sur le portail Coupa
+
+![](https://media.paxpar.tech/Atelier_1-2_resp-ventes_coupa.png){ width=100% }
+
+::ppw-chat-conversation
+---
+conversation:
+    - guillaume: "Merci Valérie, j'ai un deuxième exemple, peut-être que tu pourras également me renseigner ? Je génère la facture pour Carrefour et elle doit être acceptée sur Coupa cette fois."
+---
+::
+
+:ppw-pdf-link{href="/documents/ffx_total_186_ok.pdf"}
+
+::ppw-chat-conversation
+---
+conversation:
+    - guillaume: "C'est mon client qui va la déposer sur le portail et s'il y a un problème et qu'il ne m'avertit pas immédiatement, le temps va passer parce que je ne suis pas toujours connecté sur mon compte Coupa."
+---
+::
+
+![](/images/images_ffx/coupa.png){ width=100% }
+
+::ppw-chat-conversation
+---
+conversation:
+    - guillaume: "De temps en temps, je m'y connecte pour vérifier l'avancée du statut des factures déposées. Je sélectionne le client Carrefour et je constate que certaines ont le statut - Approuvé, En-cours... Mais celles qui m'inquiètent sont celles avec le statut Refusé. Pourquoi ont elles ce statut ? Je ne sais pas où se situe le problème ? Je vais devoir contacter mon client. Je dois générer une nouvelle facture. Je peux refaire une erreur et c'est reparti pour un tour. Résultat, le temps de règlement sera beaucoup plus long."
+---
+::
+
+****
+
+### Solution 2-Coupa
+
+![](https://media.paxpar.tech/Atelier_21_valerie-support.png){ width=100% }
+
+::ppw-showcase-check
+---
+conversation:
+  - valerie: "Pour ce deuxième exemple, il te manque les raisons pour lesquelles la plateforme refuse ta facture. Voyons ce qu'en dit la plateforme VérifTonDoc."
+pdfs:
+  - url: "/documents/ffx_total_186_ok.pdf"
+    check_result: "/blog/2023/05/_cl_ffx_total_186_ok"
+    name: "Facture Total N° 186"
+    conversation:
+        - valerie: "Si je dépose l'une des factures refusée sur Coupa dans VérifTonDoc, on comprends tout de suite pourquoi ta facture a le statut Refusé. On remarque ici, que la mention obligatoire réglementaire du siren de l'entreprise cliente est manquante. En déposant préalablement tes factures sur VérifTonDoc, la checklist te signale à la fois les non-conformités réglementaires mais aussi les non-conformités métier que tu souhaites vérifier. (Empreinte carbone, un code promo avec une date valide...)"
+---
+::
+
+****
+
+### Constitution d'une PAF
+
+![](https://media.paxpar.tech/Atelier_1-1_resp-ventes_paf.png ){ width=100% }
+
+::ppw-chat-conversation
+---
+conversation:
+    - guillaume: "C'est fort intéressant Valérie ! J'ai un troisième exemple. Pour mon client Tholga, je constitue une PAF avec des documents bien spécifiques."
+---
+::
+
+::ppw-chat-conversation
+---
+conversation:
+    - guillaume: "Voilà comment ça se passe, je l'envoie au service achat de Tholga. Mais est ce que ma PAF est conforme ? Est-ce que je n'ai pas oublié des documents ? Est-ce que les documents associés sont bien en conformité avec la facture ?"
+---
+::
+
+:ppw-pdf-link{href="/documents/total_FA-1201e.pdf"}
+
+****
+
+::ppw-chat-conversation
+---
+conversation:
+    - guillaume: "Je suis curieux de savoir si la plateforme VérifTonDoc peut résoudre cette problématique ?"
+---
+::
+
+****
+
+### La solution 3-La PAF
+
+![](https://media.paxpar.tech/Atelier_21_valerie-support.png){ width=100% }
+
+
+::ppw-chat-conversation
+---
+conversation:
+    - valerie: "Le mieux c'est de tester la plateforme. Le principe est le même que pour tes précédents exemples. Tu détermines des critères spécifiques dans la checklist et tu déposes ton PDF PAF enrichi dans la dropzone. La checklist t'indique si ta PAF est conforme ou pas."
+    - valerie: "Prenons ton PDF PAF dont tu parles, je le dépose sur VérifTonDoc."
+---
+::
+
+
+::ppw-showcase-check
+---
+conversation:
+    - valerie: "Si tu souhaites vérifier plusieurs factures pour des clients différents, quelles que soient leur plateforme ou mode de facturation, tu peux les déposer sur VérifTonDoc en allant, car la checklist appropriée pour chaque client se déclenche automatiquement."
+pdfs:
+  - url: "/documents/total_FA-1201e.pdf"
+    check_result: "/blog/2023/05/_ffx_test"
+    name: "Facture Total N° 1201e"
+    conversation:
+        - valerie: "Ici on remarque que la référence sur le BL n'est pas la même que sur la facture et le BC, si tu avais envoyé la PAF à ton client, il l'aurait refusé et tu aurais perdu du temps à le refacturer."
+---
+::
+
+
+****
+
+::ppw-chat-conversation
+---
+conversation:
+- francoise: "Merci Nadine, Valérie, pour la présentation de ces 3 cas d'usage où Guillaume a pu en quelques secondes avoir un retour rapide sur la conformité de ces documents, quelque soit la plateforme de facturation ciblée (pour rappel : facture simple destinée au marché public (choruspro), une facture simple destinée au secteur BtoB (coupa) et une piste d'audit fiable, qui est un document complexe, pour répondre à une demande spécifique d'un client.
+J’espère que nous avons su attiré votre intérêt sur notre solution Veriftondoc. Nous sommes actuellement en recherche de cas d'usages réels, pour affiner nos checklists.
+Je vous propose d'échanger sur cette thématique : questions ? avis ? intérêts ?"
+---
+::
+
+## Questions
+
+Existe t'il d'autres moyens pour vérifier la conformité Factur-X ?
+
+    Fnfe-mpe (Forum National de la Facture Électronique et des Marchés Publics Électroniques) : https://services.fnfe-mpe.org/account/home
+    Réponse, comparer avec VérifTonDoc
+
+Existe t'il d'autres moyens pour vérifier la signature électronique ?
+
+    Lien UE, sur le site de la Commission Européenne, on peut accéder 
+    - au tebleau de bord eIDAS et sélectionner eSignature validation tests : https://ec.europa.eu/digital-building-blocks/wikis/display/DIGITAL/eSignature+validation+tests 
+    - au DSS Demonstration WebApp : https://ec.europa.eu/digital-building-blocks/DSS/webapp-demo/validation 
+    On peut aussi vérifier une signature électronique sur l'"ETSI Signatures Conformance Checker" : https://signatures-conformance-checker.etsi.org/pub/index.php
+
+
+Vous avez parlé de profil basic. Existe t'il d'autres profils ?
+
+    Oui, il en existe d'autres, avec un niveau de granulométrie plus avancé comme par exemple : 
+    - le profil EN 16931 correspondant à toutes les données potentielles prévues dans le norme sémantique Européenne EN16931 
+    - ou encore le profil EXTENDED (ETENDU) correspondant au profil EN16931, augmenté de données additionnelles. D'après le FNFE-MPE Ce profil est en cours de définition et fera l’objet d’une documentation ultérieure.
+
+Le profil Basic comprend combien de mentions obligatoires ?
+
+    Prenant comme référence l'article [ici](https://www.ploutos-origins.com/index.php/les-mentions-dune-facture-electronique/) édité par Ploutos-Origin, à date, il y a 18 mentions obligatoires, qui pour nous représente des points de contrôle à rajouter dans notre checklist.
+    L'ajout de chaque point de contrôle se fera en collaboration avec un expert du métier.
+    Nous pouvons bien entendu nous adapter à l'évolution de ces points de contrôle, pour suivre au plus près la réglementation, car d'ici 2024, le nombre de mentions obligatoires passera de 18 à 19, puis en 2026 à 26 et enfin en 2028 à 34.
+
+On parle de signature électronique de facture, vous pouvez nous en dire un peu plus ?
+
+    Le processus technique de SE est l'opération qui vise à sceller un document numérique tout en donnant le nom de l'identité de l'emetteur du document. Cette identité est meme garantie (car vérifié) lorsqu'on utilise le certificat d'une autorité de certification comme ChamberSign.
+
+    Dans le cadre de la FE, c'est un certificat cachet qu'il faut utiliser au nom d'une personne morale. Chez ChamberSign ce type de certificat coute 800 eur pour 3 ans et peut permettre de sceller tout type de document (pas seulement la FE)    

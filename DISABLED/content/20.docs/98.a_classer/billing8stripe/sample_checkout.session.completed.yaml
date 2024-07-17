@@ -1,0 +1,78 @@
+id: evt_1NL4NoK0npsJqs8MFrJxkqsf
+object: event
+api_version: "2020-08-27"
+created: 1687266848
+livemode: false
+pending_webhooks: 2
+request: 
+ id: null
+ idempotency_key: null
+type: "checkout.session.completed"
+data: 
+ object: 
+  id: cs_test_a1eYlNDyf5V8b2X3BBPF7ulNhlDvwIm3WkCEgOBeJlKGLYL57IMQU6W0io
+  object: "checkout.session"
+  after_expiration: null
+  allow_promotion_codes: false
+  amount_subtotal: 18800
+  amount_total: 22560
+  automatic_tax: 
+   enabled: true
+   status: complete
+  billing_address_collection: required
+  cancel_url: "https://stripe.com"
+  client_reference_id: null
+  consent: null
+  consent_collection: 
+   promotions: none
+   terms_of_service: none
+  created: 1687266776
+  currency: eur
+  currency_conversion: null
+  custom_fields: 
+  custom_text: 
+   shipping_address: null
+   submit: null
+  customer: cus_O7IzUNpYEAPlh3
+  customer_creation: always
+  customer_details: 
+   address: "..."
+   email: "philippe.entzmann+s4@gmail.com"
+   name: "Philippe ENTZMANN"
+   phone: "+33607650693"
+   tax_exempt: none
+   tax_ids: "..."
+  customer_email: null
+  expires_at: 1687353176
+  invoice: in_1NL4NkK0npsJqs8MobpBTmhM
+  invoice_creation: null
+  livemode: false
+  locale: auto
+  metadata: 
+  mode: subscription
+  payment_intent: null
+  payment_link: plink_1NL4AOK0npsJqs8MTWfzCrPf
+  payment_method_collection: always
+  payment_method_options: null
+  payment_method_types: 
+   - card
+  payment_status: paid
+  phone_number_collection: 
+   enabled: true
+  recovered_from: null
+  setup_intent: null
+  shipping: null
+  shipping_address_collection: null
+  shipping_options: 
+  shipping_rate: null
+  status: complete
+  submit_type: auto
+  subscription: sub_1NL4NkK0npsJqs8My6RxEFQB
+  success_url: "https://stripe.com"
+  tax_id_collection: 
+   enabled: true
+  total_details: 
+   amount_discount: 0
+   amount_shipping: 0
+   amount_tax: 3760
+  url: null

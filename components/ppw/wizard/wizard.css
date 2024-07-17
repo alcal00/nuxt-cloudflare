@@ -1,0 +1,128 @@
+/*
+postcss wzard css file
+
+Use tailwind @apply rather than direct CSS directives
+Note : HMR is working fine !
+*/
+
+/* whole editor form node */
+#json_editor_form {
+    /* general text size */
+    @apply text-lg;
+
+    /* tabs navigation */
+    .nav-tabs {
+        /* hide since we manage the tabs by ourself */
+        @apply collapse;
+        /*visibility: collapse;*/
+    }
+
+    /* header with collapse button and title */
+    .je-header {
+        @apply collapse;
+        /*visibility: collapse;*/
+    }
+
+    /* no border on indented panel */
+    .je-indented-panel {
+        @apply border-0;
+    }
+
+    /* label + champs */
+    .form-control {
+        /* highlight on hover */
+        @apply p-2 hover:drop-shadow-lg;
+    }
+
+    /* input field need more spaces */
+    /* ERROR on generate :
+       Error: [vite:css] [postcss] /home/runner/work/docusstudio/docusstudio/node_modules/@arundo-tech/paxpar-widgets/components/wizard/wizard.css:40:9: The `input` class does not exist. If `input` is a custom class, make sure it is defined within a `@layer` directive.
+    */
+    /*
+    input {
+        @apply input input-bordered w-full max-w-xs;
+    }
+    */
+    /*
+    label {
+        @apply text-lg bg-blue-800;
+        
+        &:hover {
+            @apply bg-gray-300;
+        }
+    }
+    */
+
+    /* hide all collapse section buttons */
+    button.json-editor-btn-collapse {
+        visibility: hidden;
+    }
+
+    /* transparent background for the whole form */
+    background-color: hsla(0, 0%, 0%, 0);
+
+    /* ?? */
+    table {
+        border-collapse: collapse;
+    }
+
+    /* table cells border */
+    th,
+    td {
+        border: 2px solid rgb(48, 48, 48);
+        padding: 2px;
+    }
+
+    /* hide button text (span) */
+    button.json-editor-btn-add span,
+    button.json-editor-btn-delete span,
+    button.json-editor-btn-subtract span,
+    button.json-editor-btn-moveup span,
+    button.json-editor-btn-movedown span {
+        display: none;
+    }
+
+    /* style `before` button */
+    button.json-editor-btn-add:before,
+    button.json-editor-btn-delete:before,
+    button.json-editor-btn-subtract:before,
+    button.json-editor-btn-moveup:before,
+    button.json-editor-btn-movedown:before {
+        backface-visibility: hidden;
+        background-color: #2f80ed;
+        border-radius: 10px;
+        border-style: none;
+        box-sizing: border-box;
+        color: #fff;
+        cursor: pointer;
+        display: inline-block;
+        letter-spacing: normal;
+        line-height: 1.5;
+        outline: none;
+        overflow: hidden;
+        padding: 5px 15px;
+        margin: 2px 2px;
+        position: relative;
+        text-align: center;
+        touch-action: manipulation;
+        vertical-align: top;
+    }
+
+    /* `before` content button */
+    .json-editor-btn-delete:before {
+        content: "🗑";
+    }
+    .json-editor-btn-moveup:before {
+        content: "⬆";
+    }
+    .json-editor-btn-movedown:before {
+        content: "⬇";
+    }
+    .json-editor-btn-add:before {
+        content: "➕";
+    }
+    .json-editor-btn-subtract:before {
+        content: "➖";
+    }
+
+}

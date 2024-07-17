@@ -1,0 +1,907 @@
+{
+    "paxpar": {
+        "bacon": 1,
+        "imported_by": [
+            "paxpar.factory",
+            "paxpar.services.core.api",
+            "paxpar.services.core.chat",
+            "paxpar.services.core.craft.api",
+            "paxpar.services.core.craft.lib",
+            "paxpar.services.core.craft.script_default",
+            "paxpar.services.core.craft.shortcuts",
+            "paxpar.services.core.craft.tools",
+            "paxpar.services.core.forge.api",
+            "paxpar.services.core.info.api",
+            "paxpar.services.core.interfaces",
+            "paxpar.services.core.main",
+            "paxpar.services.core.sign.api",
+            "paxpar.services.core.sign.yousign",
+            "paxpar.services.perm.credit",
+            "paxpar.services.perm.lib",
+            "paxpar.services.perm.main",
+            "paxpar.services.perm.models",
+            "paxpar.services.shared.broker",
+            "paxpar.services.shared.credits",
+            "paxpar.services.shared.db",
+            "paxpar.services.shared.roles",
+            "paxpar.services.shared.token",
+            "paxpar.services.tools"
+        ],
+        "name": "paxpar",
+        "path": "/home/philippe/src/paxpar/paxpar/__init__.py"
+    },
+    "paxpar.factory": {
+        "bacon": 1,
+        "imported_by": [
+            "paxpar.services.core.api",
+            "paxpar.services.core.main",
+            "paxpar.services.perm.main"
+        ],
+        "imports": [
+            "paxpar",
+            "paxpar.services",
+            "paxpar.services.perm",
+            "paxpar.services.perm.lib"
+        ],
+        "name": "paxpar.factory",
+        "path": "/home/philippe/src/paxpar/paxpar/factory.py"
+    },
+    "paxpar.models": {
+        "bacon": 1,
+        "imported_by": [
+            "paxpar.services.perm.models"
+        ],
+        "name": "paxpar.models",
+        "path": "/home/philippe/src/paxpar/paxpar/models.py"
+    },
+    "paxpar.services": {
+        "bacon": 1,
+        "imported_by": [
+            "paxpar.factory",
+            "paxpar.services.core.api",
+            "paxpar.services.core.chat",
+            "paxpar.services.core.craft.api",
+            "paxpar.services.core.craft.lib",
+            "paxpar.services.core.craft.script_default",
+            "paxpar.services.core.craft.shortcuts",
+            "paxpar.services.core.craft.tools",
+            "paxpar.services.core.forge.api",
+            "paxpar.services.core.info.api",
+            "paxpar.services.core.interfaces",
+            "paxpar.services.core.main",
+            "paxpar.services.core.sign.api",
+            "paxpar.services.core.sign.yousign",
+            "paxpar.services.perm.credit",
+            "paxpar.services.perm.lib",
+            "paxpar.services.perm.main",
+            "paxpar.services.perm.models",
+            "paxpar.services.shared.broker",
+            "paxpar.services.shared.credits",
+            "paxpar.services.shared.db",
+            "paxpar.services.shared.roles",
+            "paxpar.services.shared.token",
+            "paxpar.services.tools"
+        ],
+        "name": "paxpar.services",
+        "path": "/home/philippe/src/paxpar/paxpar/services/__init__.py"
+    },
+    "paxpar.services.core": {
+        "bacon": 1,
+        "imported_by": [
+            "paxpar.services.core.api",
+            "paxpar.services.core.chat",
+            "paxpar.services.core.craft.api",
+            "paxpar.services.core.craft.lib",
+            "paxpar.services.core.craft.script_default",
+            "paxpar.services.core.craft.shortcuts",
+            "paxpar.services.core.craft.tools",
+            "paxpar.services.core.forge.api",
+            "paxpar.services.core.info.api",
+            "paxpar.services.core.interfaces",
+            "paxpar.services.core.main",
+            "paxpar.services.core.sign.api",
+            "paxpar.services.core.sign.yousign",
+            "paxpar.services.tools"
+        ],
+        "name": "paxpar.services.core",
+        "path": "/home/philippe/src/paxpar/paxpar/services/core/__init__.py"
+    },
+    "paxpar.services.core.api": {
+        "bacon": 1,
+        "imported_by": [
+            "paxpar.services.core.main"
+        ],
+        "imports": [
+            "paxpar",
+            "paxpar.factory",
+            "paxpar.services",
+            "paxpar.services.core",
+            "paxpar.services.core.conf",
+            "paxpar.services.core.craft",
+            "paxpar.services.core.craft.api",
+            "paxpar.services.core.info",
+            "paxpar.services.core.info.api",
+            "paxpar.services.core.interfaces",
+            "paxpar.services.core.metrics",
+            "paxpar.services.core.openapi",
+            "paxpar.services.core.openapi.gotenberg",
+            "paxpar.services.core.sign",
+            "paxpar.services.core.sign.api",
+            "paxpar.services.core.tools",
+            "paxpar.services.shared",
+            "paxpar.services.shared.broker"
+        ],
+        "name": "paxpar.services.core.api",
+        "path": "/home/philippe/src/paxpar/paxpar/services/core/api.py"
+    },
+    "paxpar.services.core.chat": {
+        "bacon": 1,
+        "imports": [
+            "paxpar",
+            "paxpar.services",
+            "paxpar.services.core",
+            "paxpar.services.core.conf"
+        ],
+        "name": "paxpar.services.core.chat",
+        "path": "/home/philippe/src/paxpar/paxpar/services/core/chat.py"
+    },
+    "paxpar.services.core.conf": {
+        "bacon": 1,
+        "imported_by": [
+            "paxpar.services.core.api",
+            "paxpar.services.core.chat",
+            "paxpar.services.core.craft.lib",
+            "paxpar.services.core.craft.script_default",
+            "paxpar.services.core.craft.shortcuts",
+            "paxpar.services.core.craft.tools",
+            "paxpar.services.core.forge.api",
+            "paxpar.services.core.forge.lib",
+            "paxpar.services.core.forge.run_report",
+            "paxpar.services.core.forge.tools",
+            "paxpar.services.core.interfaces",
+            "paxpar.services.core.main",
+            "paxpar.services.core.sign.yousign",
+            "paxpar.services.tools"
+        ],
+        "imports": [
+            "paxpar.services.shared",
+            "paxpar.services.shared.conf"
+        ],
+        "name": "paxpar.services.core.conf",
+        "path": "/home/philippe/src/paxpar/paxpar/services/core/conf.py"
+    },
+    "paxpar.services.core.craft": {
+        "bacon": 1,
+        "imported_by": [
+            "paxpar.services.core.api",
+            "paxpar.services.core.craft.api",
+            "paxpar.services.core.craft.lib",
+            "paxpar.services.core.craft.script_default",
+            "paxpar.services.core.craft.shortcuts",
+            "paxpar.services.core.craft.tools",
+            "paxpar.services.core.info.api",
+            "paxpar.services.core.main",
+            "paxpar.services.core.sign.api"
+        ],
+        "name": "paxpar.services.core.craft",
+        "path": "/home/philippe/src/paxpar/paxpar/services/core/craft/__init__.py"
+    },
+    "paxpar.services.core.craft.api": {
+        "bacon": 1,
+        "imported_by": [
+            "paxpar.services.core.api",
+            "paxpar.services.core.main"
+        ],
+        "imports": [
+            "paxpar",
+            "paxpar.services",
+            "paxpar.services.core",
+            "paxpar.services.core.craft",
+            "paxpar.services.core.craft.lib",
+            "paxpar.services.core.craft.tools"
+        ],
+        "name": "paxpar.services.core.craft.api",
+        "path": "/home/philippe/src/paxpar/paxpar/services/core/craft/api.py"
+    },
+    "paxpar.services.core.craft.interfaces": {
+        "bacon": 1,
+        "imported_by": [
+            "paxpar.services.core.craft.script_default",
+            "paxpar.services.core.craft.shortcuts",
+            "paxpar.services.core.craft.tools2"
+        ],
+        "name": "paxpar.services.core.craft.interfaces",
+        "path": "/home/philippe/src/paxpar/paxpar/services/core/craft/interfaces.py"
+    },
+    "paxpar.services.core.craft.lib": {
+        "bacon": 1,
+        "imported_by": [
+            "paxpar.services.core.craft.api",
+            "paxpar.services.core.sign.api"
+        ],
+        "imports": [
+            "paxpar",
+            "paxpar.services",
+            "paxpar.services.core",
+            "paxpar.services.core.conf",
+            "paxpar.services.core.craft",
+            "paxpar.services.core.craft.script_default",
+            "paxpar.services.core.craft.tools",
+            "paxpar.services.core.craft.tools2"
+        ],
+        "name": "paxpar.services.core.craft.lib",
+        "path": "/home/philippe/src/paxpar/paxpar/services/core/craft/lib.py"
+    },
+    "paxpar.services.core.craft.models": {
+        "bacon": 1,
+        "imported_by": [
+            "paxpar.services.core.craft.tools"
+        ],
+        "name": "paxpar.services.core.craft.models",
+        "path": "/home/philippe/src/paxpar/paxpar/services/core/craft/models.py"
+    },
+    "paxpar.services.core.craft.script_default": {
+        "bacon": 1,
+        "imported_by": [
+            "paxpar.services.core.craft.lib",
+            "paxpar.services.core.craft.tools"
+        ],
+        "imports": [
+            "paxpar",
+            "paxpar.services",
+            "paxpar.services.core",
+            "paxpar.services.core.conf",
+            "paxpar.services.core.craft",
+            "paxpar.services.core.craft.interfaces",
+            "paxpar.services.core.craft.shortcuts",
+            "paxpar.services.core.craft.tools2",
+            "paxpar.services.core.tools",
+            "paxpar.services.forge",
+            "paxpar.services.shared",
+            "paxpar.services.shared.gen"
+        ],
+        "name": "paxpar.services.core.craft.script_default",
+        "path": "/home/philippe/src/paxpar/paxpar/services/core/craft/script_default.py"
+    },
+    "paxpar.services.core.craft.shortcuts": {
+        "bacon": 1,
+        "imported_by": [
+            "paxpar.services.core.craft.script_default"
+        ],
+        "imports": [
+            "paxpar",
+            "paxpar.services",
+            "paxpar.services.core",
+            "paxpar.services.core.conf",
+            "paxpar.services.core.craft",
+            "paxpar.services.core.craft.interfaces",
+            "paxpar.services.core.craft.tools2"
+        ],
+        "name": "paxpar.services.core.craft.shortcuts",
+        "path": "/home/philippe/src/paxpar/paxpar/services/core/craft/shortcuts.py"
+    },
+    "paxpar.services.core.craft.store": {
+        "bacon": 1,
+        "name": "paxpar.services.core.craft.store",
+        "path": "/home/philippe/src/paxpar/paxpar/services/core/craft/store.py"
+    },
+    "paxpar.services.core.craft.tools": {
+        "bacon": 1,
+        "imported_by": [
+            "paxpar.services.core.craft.api",
+            "paxpar.services.core.craft.lib"
+        ],
+        "imports": [
+            "paxpar",
+            "paxpar.services",
+            "paxpar.services.core",
+            "paxpar.services.core.conf",
+            "paxpar.services.core.craft",
+            "paxpar.services.core.craft.models",
+            "paxpar.services.core.craft.script_default",
+            "paxpar.services.core.craft.tools2",
+            "paxpar.services.core.sign",
+            "paxpar.services.core.sign.main",
+            "paxpar.services.core.sign.yousign",
+            "paxpar.services.core.tools",
+            "paxpar.services.shared",
+            "paxpar.services.shared.gen"
+        ],
+        "name": "paxpar.services.core.craft.tools",
+        "path": "/home/philippe/src/paxpar/paxpar/services/core/craft/tools.py"
+    },
+    "paxpar.services.core.craft.tools2": {
+        "bacon": 1,
+        "imported_by": [
+            "paxpar.services.core.craft.lib",
+            "paxpar.services.core.craft.script_default",
+            "paxpar.services.core.craft.shortcuts",
+            "paxpar.services.core.craft.tools",
+            "paxpar.services.core.info.api"
+        ],
+        "imports": [
+            "paxpar.services.core.craft.interfaces"
+        ],
+        "name": "paxpar.services.core.craft.tools2",
+        "path": "/home/philippe/src/paxpar/paxpar/services/core/craft/tools2.py"
+    },
+    "paxpar.services.core.forge": {
+        "bacon": 1,
+        "imported_by": [
+            "paxpar.services.core.forge.api"
+        ],
+        "name": "paxpar.services.core.forge",
+        "path": "/home/philippe/src/paxpar/paxpar/services/core/forge/__init__.py"
+    },
+    "paxpar.services.core.forge.api": {
+        "bacon": 1,
+        "imports": [
+            "paxpar",
+            "paxpar.services",
+            "paxpar.services.core",
+            "paxpar.services.core.conf",
+            "paxpar.services.core.forge",
+            "paxpar.services.core.forge.models",
+            "paxpar.services.core.forge.tools",
+            "paxpar.services.core.tools"
+        ],
+        "name": "paxpar.services.core.forge.api",
+        "path": "/home/philippe/src/paxpar/paxpar/services/core/forge/api.py"
+    },
+    "paxpar.services.core.forge.lib": {
+        "bacon": 1,
+        "imports": [
+            "paxpar.services.core.conf"
+        ],
+        "name": "paxpar.services.core.forge.lib",
+        "path": "/home/philippe/src/paxpar/paxpar/services/core/forge/lib.py"
+    },
+    "paxpar.services.core.forge.models": {
+        "bacon": 1,
+        "imported_by": [
+            "paxpar.services.core.forge.api"
+        ],
+        "name": "paxpar.services.core.forge.models",
+        "path": "/home/philippe/src/paxpar/paxpar/services/core/forge/models.py"
+    },
+    "paxpar.services.core.forge.run_report": {
+        "bacon": 1,
+        "imports": [
+            "paxpar.services.core.conf"
+        ],
+        "name": "paxpar.services.core.forge.run_report",
+        "path": "/home/philippe/src/paxpar/paxpar/services/core/forge/run_report.py"
+    },
+    "paxpar.services.core.forge.tools": {
+        "bacon": 1,
+        "imported_by": [
+            "paxpar.services.core.forge.api"
+        ],
+        "imports": [
+            "paxpar.services.core.conf"
+        ],
+        "name": "paxpar.services.core.forge.tools",
+        "path": "/home/philippe/src/paxpar/paxpar/services/core/forge/tools.py"
+    },
+    "paxpar.services.core.forge.toto": {
+        "bacon": 1,
+        "name": "paxpar.services.core.forge.toto",
+        "path": "/home/philippe/src/paxpar/paxpar/services/core/forge/toto.py"
+    },
+    "paxpar.services.core.info": {
+        "bacon": 1,
+        "imported_by": [
+            "paxpar.services.core.api",
+            "paxpar.services.core.info.api",
+            "paxpar.services.core.main"
+        ],
+        "name": "paxpar.services.core.info",
+        "path": "/home/philippe/src/paxpar/paxpar/services/core/info/__init__.py"
+    },
+    "paxpar.services.core.info.api": {
+        "bacon": 1,
+        "imported_by": [
+            "paxpar.services.core.api",
+            "paxpar.services.core.main"
+        ],
+        "imports": [
+            "paxpar",
+            "paxpar.services",
+            "paxpar.services.core",
+            "paxpar.services.core.craft",
+            "paxpar.services.core.craft.tools2",
+            "paxpar.services.core.info",
+            "paxpar.services.core.info.lib"
+        ],
+        "name": "paxpar.services.core.info.api",
+        "path": "/home/philippe/src/paxpar/paxpar/services/core/info/api.py"
+    },
+    "paxpar.services.core.info.lib": {
+        "bacon": 1,
+        "imported_by": [
+            "paxpar.services.core.info.api"
+        ],
+        "name": "paxpar.services.core.info.lib",
+        "path": "/home/philippe/src/paxpar/paxpar/services/core/info/lib.py"
+    },
+    "paxpar.services.core.interfaces": {
+        "bacon": 1,
+        "imported_by": [
+            "paxpar.services.core.api"
+        ],
+        "imports": [
+            "paxpar",
+            "paxpar.services",
+            "paxpar.services.core",
+            "paxpar.services.core.conf"
+        ],
+        "name": "paxpar.services.core.interfaces",
+        "path": "/home/philippe/src/paxpar/paxpar/services/core/interfaces.py"
+    },
+    "paxpar.services.core.main": {
+        "bacon": 1,
+        "imports": [
+            "paxpar",
+            "paxpar.factory",
+            "paxpar.services",
+            "paxpar.services.core",
+            "paxpar.services.core.api",
+            "paxpar.services.core.conf",
+            "paxpar.services.core.craft",
+            "paxpar.services.core.craft.api",
+            "paxpar.services.core.info",
+            "paxpar.services.core.info.api",
+            "paxpar.services.core.metrics",
+            "paxpar.services.core.tools",
+            "paxpar.services.shared",
+            "paxpar.services.shared.broker"
+        ],
+        "name": "paxpar.services.core.main",
+        "path": "/home/philippe/src/paxpar/paxpar/services/core/main.py"
+    },
+    "paxpar.services.core.metrics": {
+        "bacon": 1,
+        "imported_by": [
+            "paxpar.services.core.api",
+            "paxpar.services.core.main"
+        ],
+        "name": "paxpar.services.core.metrics",
+        "path": "/home/philippe/src/paxpar/paxpar/services/core/metrics/__init__.py"
+    },
+    "paxpar.services.core.metrics.dummy_linkedin2": {
+        "bacon": 1,
+        "name": "paxpar.services.core.metrics.dummy_linkedin2",
+        "path": "/home/philippe/src/paxpar/paxpar/services/core/metrics/dummy_linkedin2.py"
+    },
+    "paxpar.services.core.metrics.dummy_linkedin3": {
+        "bacon": 1,
+        "name": "paxpar.services.core.metrics.dummy_linkedin3",
+        "path": "/home/philippe/src/paxpar/paxpar/services/core/metrics/dummy_linkedin3.py"
+    },
+    "paxpar.services.core.metrics.dummy_load": {
+        "bacon": 1,
+        "name": "paxpar.services.core.metrics.dummy_load",
+        "path": "/home/philippe/src/paxpar/paxpar/services/core/metrics/dummy_load.py"
+    },
+    "paxpar.services.core.metrics.lhc": {
+        "bacon": 1,
+        "name": "paxpar.services.core.metrics.lhc",
+        "path": "/home/philippe/src/paxpar/paxpar/services/core/metrics/lhc.py"
+    },
+    "paxpar.services.core.metrics.linkedin": {
+        "bacon": 1,
+        "name": "paxpar.services.core.metrics.linkedin",
+        "path": "/home/philippe/src/paxpar/paxpar/services/core/metrics/linkedin.py"
+    },
+    "paxpar.services.core.metrics.linkedin_fetch": {
+        "bacon": 1,
+        "name": "paxpar.services.core.metrics.linkedin_fetch",
+        "path": "/home/philippe/src/paxpar/paxpar/services/core/metrics/linkedin_fetch.py"
+    },
+    "paxpar.services.core.metrics.twitter": {
+        "bacon": 1,
+        "name": "paxpar.services.core.metrics.twitter",
+        "path": "/home/philippe/src/paxpar/paxpar/services/core/metrics/twitter.py"
+    },
+    "paxpar.services.core.openapi": {
+        "bacon": 1,
+        "imported_by": [
+            "paxpar.services.core.api"
+        ],
+        "name": "paxpar.services.core.openapi",
+        "path": "/home/philippe/src/paxpar/paxpar/services/core/openapi/__init__.py"
+    },
+    "paxpar.services.core.openapi.gotenberg": {
+        "bacon": 1,
+        "imported_by": [
+            "paxpar.services.core.api"
+        ],
+        "name": "paxpar.services.core.openapi.gotenberg",
+        "path": "/home/philippe/src/paxpar/paxpar/services/core/openapi/gotenberg.py"
+    },
+    "paxpar.services.core.openapi.itext": {
+        "bacon": 1,
+        "imports": [
+            "paxpar.services.core.openapi.models",
+            "paxpar.services.core.tools"
+        ],
+        "name": "paxpar.services.core.openapi.itext",
+        "path": "/home/philippe/src/paxpar/paxpar/services/core/openapi/itext.py"
+    },
+    "paxpar.services.core.openapi.models": {
+        "bacon": 1,
+        "imported_by": [
+            "paxpar.services.core.openapi.itext",
+            "paxpar.services.core.openapi.pdfbox"
+        ],
+        "name": "paxpar.services.core.openapi.models",
+        "path": "/home/philippe/src/paxpar/paxpar/services/core/openapi/models.py"
+    },
+    "paxpar.services.core.openapi.pdfbox": {
+        "bacon": 1,
+        "imports": [
+            "paxpar.services.core.openapi.models"
+        ],
+        "name": "paxpar.services.core.openapi.pdfbox",
+        "path": "/home/philippe/src/paxpar/paxpar/services/core/openapi/pdfbox.py"
+    },
+    "paxpar.services.core.sign": {
+        "bacon": 1,
+        "imported_by": [
+            "paxpar.services.core.api",
+            "paxpar.services.core.craft.tools",
+            "paxpar.services.core.sign.api"
+        ],
+        "name": "paxpar.services.core.sign",
+        "path": "/home/philippe/src/paxpar/paxpar/services/core/sign/__init__.py"
+    },
+    "paxpar.services.core.sign.api": {
+        "bacon": 1,
+        "imported_by": [
+            "paxpar.services.core.api"
+        ],
+        "imports": [
+            "paxpar",
+            "paxpar.services",
+            "paxpar.services.core",
+            "paxpar.services.core.craft",
+            "paxpar.services.core.craft.lib",
+            "paxpar.services.core.sign",
+            "paxpar.services.core.sign.yousign",
+            "paxpar.services.core.tools"
+        ],
+        "name": "paxpar.services.core.sign.api",
+        "path": "/home/philippe/src/paxpar/paxpar/services/core/sign/api.py"
+    },
+    "paxpar.services.core.sign.main": {
+        "bacon": 1,
+        "imported_by": [
+            "paxpar.services.core.craft.tools"
+        ],
+        "name": "paxpar.services.core.sign.main",
+        "path": "/home/philippe/src/paxpar/paxpar/services/core/sign/main.py"
+    },
+    "paxpar.services.core.sign.yousign": {
+        "bacon": 1,
+        "imported_by": [
+            "paxpar.services.core.craft.tools",
+            "paxpar.services.core.sign.api"
+        ],
+        "imports": [
+            "paxpar",
+            "paxpar.services",
+            "paxpar.services.core",
+            "paxpar.services.core.conf",
+            "paxpar.services.core.tools"
+        ],
+        "name": "paxpar.services.core.sign.yousign",
+        "path": "/home/philippe/src/paxpar/paxpar/services/core/sign/yousign.py"
+    },
+    "paxpar.services.core.tools": {
+        "bacon": 1,
+        "imported_by": [
+            "paxpar.services.core.api",
+            "paxpar.services.core.craft.script_default",
+            "paxpar.services.core.craft.tools",
+            "paxpar.services.core.forge.api",
+            "paxpar.services.core.main",
+            "paxpar.services.core.openapi.itext",
+            "paxpar.services.core.sign.api",
+            "paxpar.services.core.sign.yousign"
+        ],
+        "name": "paxpar.services.core.tools",
+        "path": "/home/philippe/src/paxpar/paxpar/services/core/tools.py"
+    },
+    "paxpar.services.forge": {
+        "bacon": 1,
+        "imported_by": [
+            "paxpar.services.core.craft.script_default"
+        ],
+        "name": "paxpar.services.forge",
+        "path": "/home/philippe/src/paxpar/paxpar/services/forge/__init__.py"
+    },
+    "paxpar.services.perm": {
+        "bacon": 1,
+        "imported_by": [
+            "paxpar.factory",
+            "paxpar.services.perm.credit",
+            "paxpar.services.perm.main"
+        ],
+        "name": "paxpar.services.perm",
+        "path": "/home/philippe/src/paxpar/paxpar/services/perm/__init__.py"
+    },
+    "paxpar.services.perm.conf": {
+        "bacon": 1,
+        "imported_by": [
+            "paxpar.services.perm.lib",
+            "paxpar.services.perm.main",
+            "paxpar.services.perm.models"
+        ],
+        "name": "paxpar.services.perm.conf",
+        "path": "/home/philippe/src/paxpar/paxpar/services/perm/conf.py"
+    },
+    "paxpar.services.perm.credit": {
+        "bacon": 1,
+        "imported_by": [
+            "paxpar.services.perm.main"
+        ],
+        "imports": [
+            "paxpar",
+            "paxpar.services",
+            "paxpar.services.perm",
+            "paxpar.services.perm.lib",
+            "paxpar.services.shared",
+            "paxpar.services.shared.credits"
+        ],
+        "name": "paxpar.services.perm.credit",
+        "path": "/home/philippe/src/paxpar/paxpar/services/perm/credit.py"
+    },
+    "paxpar.services.perm.exceptions": {
+        "bacon": 1,
+        "imported_by": [
+            "paxpar.services.perm.main"
+        ],
+        "name": "paxpar.services.perm.exceptions",
+        "path": "/home/philippe/src/paxpar/paxpar/services/perm/exceptions.py"
+    },
+    "paxpar.services.perm.lib": {
+        "bacon": 1,
+        "imported_by": [
+            "paxpar.factory",
+            "paxpar.services.perm.credit",
+            "paxpar.services.perm.main"
+        ],
+        "imports": [
+            "paxpar",
+            "paxpar.services",
+            "paxpar.services.perm.conf",
+            "paxpar.services.perm.models",
+            "paxpar.services.shared",
+            "paxpar.services.shared.models"
+        ],
+        "name": "paxpar.services.perm.lib",
+        "path": "/home/philippe/src/paxpar/paxpar/services/perm/lib.py"
+    },
+    "paxpar.services.perm.main": {
+        "bacon": 1,
+        "imports": [
+            "paxpar",
+            "paxpar.factory",
+            "paxpar.services",
+            "paxpar.services.perm",
+            "paxpar.services.perm.conf",
+            "paxpar.services.perm.credit",
+            "paxpar.services.perm.exceptions",
+            "paxpar.services.perm.lib",
+            "paxpar.services.perm.models",
+            "paxpar.services.shared",
+            "paxpar.services.shared.broker",
+            "paxpar.services.shared.db",
+            "paxpar.services.shared.plans",
+            "paxpar.services.shared.token"
+        ],
+        "name": "paxpar.services.perm.main",
+        "path": "/home/philippe/src/paxpar/paxpar/services/perm/main.py"
+    },
+    "paxpar.services.perm.models": {
+        "bacon": 1,
+        "imported_by": [
+            "paxpar.services.perm.lib",
+            "paxpar.services.perm.main"
+        ],
+        "imports": [
+            "paxpar",
+            "paxpar.models",
+            "paxpar.services",
+            "paxpar.services.perm.conf",
+            "paxpar.services.shared",
+            "paxpar.services.shared.db"
+        ],
+        "name": "paxpar.services.perm.models",
+        "path": "/home/philippe/src/paxpar/paxpar/services/perm/models.py"
+    },
+    "paxpar.services.shared": {
+        "bacon": 1,
+        "imported_by": [
+            "paxpar.services.core.api",
+            "paxpar.services.core.conf",
+            "paxpar.services.core.craft.script_default",
+            "paxpar.services.core.craft.tools",
+            "paxpar.services.core.main",
+            "paxpar.services.perm.credit",
+            "paxpar.services.perm.lib",
+            "paxpar.services.perm.main",
+            "paxpar.services.perm.models",
+            "paxpar.services.shared.broker",
+            "paxpar.services.shared.credits",
+            "paxpar.services.shared.db",
+            "paxpar.services.shared.roles",
+            "paxpar.services.shared.token"
+        ],
+        "name": "paxpar.services.shared",
+        "path": "/home/philippe/src/paxpar/paxpar/services/shared/__init__.py"
+    },
+    "paxpar.services.shared.broker": {
+        "bacon": 1,
+        "imported_by": [
+            "paxpar.services.core.api",
+            "paxpar.services.core.main",
+            "paxpar.services.perm.main"
+        ],
+        "imports": [
+            "paxpar",
+            "paxpar.services",
+            "paxpar.services.shared",
+            "paxpar.services.shared.gid"
+        ],
+        "name": "paxpar.services.shared.broker",
+        "path": "/home/philippe/src/paxpar/paxpar/services/shared/broker.py"
+    },
+    "paxpar.services.shared.conf": {
+        "bacon": 1,
+        "imported_by": [
+            "paxpar.services.core.conf",
+            "paxpar.services.shared.token"
+        ],
+        "name": "paxpar.services.shared.conf",
+        "path": "/home/philippe/src/paxpar/paxpar/services/shared/conf.py"
+    },
+    "paxpar.services.shared.credits": {
+        "bacon": 1,
+        "imported_by": [
+            "paxpar.services.perm.credit"
+        ],
+        "imports": [
+            "paxpar",
+            "paxpar.services",
+            "paxpar.services.shared",
+            "paxpar.services.shared.db",
+            "paxpar.services.shared.exceptions",
+            "paxpar.services.shared.gid"
+        ],
+        "name": "paxpar.services.shared.credits",
+        "path": "/home/philippe/src/paxpar/paxpar/services/shared/credits.py"
+    },
+    "paxpar.services.shared.db": {
+        "bacon": 1,
+        "imported_by": [
+            "paxpar.services.perm.main",
+            "paxpar.services.perm.models",
+            "paxpar.services.shared.credits"
+        ],
+        "imports": [
+            "paxpar",
+            "paxpar.services",
+            "paxpar.services.shared",
+            "paxpar.services.shared.schema"
+        ],
+        "name": "paxpar.services.shared.db",
+        "path": "/home/philippe/src/paxpar/paxpar/services/shared/db.py"
+    },
+    "paxpar.services.shared.exceptions": {
+        "bacon": 1,
+        "imported_by": [
+            "paxpar.services.shared.credits",
+            "paxpar.services.shared.roles",
+            "paxpar.services.shared.token"
+        ],
+        "name": "paxpar.services.shared.exceptions",
+        "path": "/home/philippe/src/paxpar/paxpar/services/shared/exceptions.py"
+    },
+    "paxpar.services.shared.gen": {
+        "bacon": 1,
+        "imported_by": [
+            "paxpar.services.core.craft.script_default",
+            "paxpar.services.core.craft.tools"
+        ],
+        "name": "paxpar.services.shared.gen",
+        "path": "/home/philippe/src/paxpar/paxpar/services/shared/gen.py"
+    },
+    "paxpar.services.shared.gid": {
+        "bacon": 1,
+        "imported_by": [
+            "paxpar.services.shared.broker",
+            "paxpar.services.shared.credits"
+        ],
+        "name": "paxpar.services.shared.gid",
+        "path": "/home/philippe/src/paxpar/paxpar/services/shared/gid.py"
+    },
+    "paxpar.services.shared.menus": {
+        "bacon": 1,
+        "imports": [
+            "paxpar.services.shared.models"
+        ],
+        "name": "paxpar.services.shared.menus",
+        "path": "/home/philippe/src/paxpar/paxpar/services/shared/menus.py"
+    },
+    "paxpar.services.shared.models": {
+        "bacon": 1,
+        "imported_by": [
+            "paxpar.services.perm.lib",
+            "paxpar.services.shared.menus",
+            "paxpar.services.shared.plans",
+            "paxpar.services.shared.roles",
+            "paxpar.services.shared.token"
+        ],
+        "name": "paxpar.services.shared.models",
+        "path": "/home/philippe/src/paxpar/paxpar/services/shared/models.py"
+    },
+    "paxpar.services.shared.plans": {
+        "bacon": 1,
+        "imported_by": [
+            "paxpar.services.perm.main"
+        ],
+        "imports": [
+            "paxpar.services.shared.models"
+        ],
+        "name": "paxpar.services.shared.plans",
+        "path": "/home/philippe/src/paxpar/paxpar/services/shared/plans.py"
+    },
+    "paxpar.services.shared.roles": {
+        "bacon": 1,
+        "imports": [
+            "paxpar",
+            "paxpar.services",
+            "paxpar.services.shared",
+            "paxpar.services.shared.exceptions",
+            "paxpar.services.shared.models"
+        ],
+        "name": "paxpar.services.shared.roles",
+        "path": "/home/philippe/src/paxpar/paxpar/services/shared/roles.py"
+    },
+    "paxpar.services.shared.schema": {
+        "bacon": 1,
+        "imported_by": [
+            "paxpar.services.shared.db"
+        ],
+        "name": "paxpar.services.shared.schema",
+        "path": "/home/philippe/src/paxpar/paxpar/services/shared/schema.py"
+    },
+    "paxpar.services.shared.token": {
+        "bacon": 1,
+        "imported_by": [
+            "paxpar.services.perm.main"
+        ],
+        "imports": [
+            "paxpar",
+            "paxpar.services",
+            "paxpar.services.shared",
+            "paxpar.services.shared.conf",
+            "paxpar.services.shared.exceptions",
+            "paxpar.services.shared.models"
+        ],
+        "name": "paxpar.services.shared.token",
+        "path": "/home/philippe/src/paxpar/paxpar/services/shared/token.py"
+    },
+    "paxpar.services.tools": {
+        "bacon": 1,
+        "imports": [
+            "paxpar",
+            "paxpar.services",
+            "paxpar.services.core",
+            "paxpar.services.core.conf"
+        ],
+        "name": "paxpar.services.tools",
+        "path": "/home/philippe/src/paxpar/paxpar/services/tools.py"
+    }
+}
